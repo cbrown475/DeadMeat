@@ -1,0 +1,683 @@
+﻿Log file open, 04/25/15 19:03:50
+LogInit:Display: Running engine for game: DeadMeat
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.26-02.03.50:965][  0]LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
+[2015.04.26-02.03.51:053][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.26-02.03.51:070][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.26-02.03.51:082][  0]LogInit: Object subsystem initialized
+[2015.04.26-02.03.51:087][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.26-02.03.51:087][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.26-02.03.51:091][  0]LogInit: Computer: DUDE-PC
+[2015.04.26-02.03.51:091][  0]LogInit: User: Dude
+[2015.04.26-02.03.51:091][  0]LogInit: CPU Page size=4096, Cores=6
+[2015.04.26-02.03.51:091][  0]LogInit: High frequency timer resolution =3.126845 MHz
+[2015.04.26-02.03.51:092][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=8192.0GB
+[2015.04.26-02.03.51:092][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.26-02.03.51:092][  0]LogMemory: Process Physical Memory: 48.72 MB used, 48.72 MB peak
+[2015.04.26-02.03.51:092][  0]LogMemory: Process Virtual Memory: 27.60 MB used, 27.61 MB peak
+[2015.04.26-02.03.51:092][  0]LogMemory: Physical Memory: 5323.05 MB used, 16324.43 MB total
+[2015.04.26-02.03.51:092][  0]LogMemory: Virtual Memory: 282.99 MB used, 8388608.00 MB total
+[2015.04.26-02.03.51:119][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.04.26-02.03.51:119][  0]LogD3D11RHI: Adapter has 4010MB of dedicated video memory, 0MB of dedicated system memory, and 7906MB of shared system memory, 1 output[s]
+[2015.04.26-02.03.51:119][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.26-02.03.51:123][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.26-02.03.51:130][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.26-02.03.51:549][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.26-02.03.51:605][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.26-02.03.51:606][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.26-02.03.51:681][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.26-02.03.53:959][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.26-02.03.54:430][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.26-02.03.54:489][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.26-02.03.54:523][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Dude/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.26-02.03.54:523][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dude/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.26-02.03.54:523][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.26-02.03.54:523][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.26-02.03.54:645][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.26-02.03.54:656][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dude/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.26-02.03.54:951][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.26-02.03.54:951][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.26-02.03.55:299][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.26-02.03.55:371][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.26-02.03.56:194][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.26-02.03.56:400][  0]SourceControl: Info Source control is disabled
+[2015.04.26-02.03.56:401][  0]SourceControl: Info Source control is disabled
+[2015.04.26-02.03.56:401][  0]SourceControl: Info Source control is disabled
+[2015.04.26-02.03.56:401][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.26-02.03.56:401][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.26-02.03.56:409][  0]SourceControl: Info Source control is disabled
+[2015.04.26-02.03.56:580][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.26-02.03.56:580][  0]LogUObjectAllocator: 5137168 out of 0 bytes used by permanent object pool.
+[2015.04.26-02.03.56:660][  0]LogEngine: Initializing Engine...
+[2015.04.26-02.03.59:832][  0]LogInit: XAudio2 using 'Speakers (ASUS Xonar DX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.04.26-02.03.59:841][  0]LogInit: FAudioDevice initialized.
+[2015.04.26-02.03.59:878][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.26-02.03.59:896][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Dude/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.26-02.03.59:901][  0]LogInit: Texture streaming: Enabled
+[2015.04.26-02.03.59:990][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.26-02.03.59:990][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.26-02.03.59:991][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2015.04.26-02.03.59:991][  0]LogAnalytics: SetUserId 1898f3f14513230e162d1398c20f910c|f6e50be6292f44f1b22235b3dfd8efaa|971c4396-f5ad-4026-b5a7-2f95642dd7af
+[2015.04.26-02.03.59:991][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.26-02.04.00:009][  0]LogInit: Transaction tracking system initialized
+[2015.04.26-02.04.00:175][  0]BlueprintLog: New page: Editor Load
+[2015.04.26-02.04.00:209][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
+[2015.04.26-02.04.00:209][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.26-02.04.00:696][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.26-02.04.01:032][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.26-02.04.05:199][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.26-02.04.05:199][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.26-02.04.05:207][  0]LogConsoleResponse:Display: 
+[2015.04.26-02.04.05:328][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.26-02.04.05:466][  0]SourceControl: Info Source control is disabled
+[2015.04.26-02.04.05:471][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.04.26-02.04.05:471][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: 'StarterContent/StarterContent' is not a standard unreal filename or a long path name. Reason: Path should start with a '/'
+[2015.04.26-02.04.05:472][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/4.7/FeaturePacks/StarterContent.upack)
+[2015.04.26-02.04.07:298][  0]LogPackFactory: Content/StarterContent/Architecture/Floor_400x400.uasset (48141) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2015.04.26-02.04.07:300][  0]LogPackFactory: Content/StarterContent/Architecture/Pillar_50x500.uasset (65452) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Architecture/Pillar_50x500.uasset
+[2015.04.26-02.04.07:302][  0]LogPackFactory: Content/StarterContent/Architecture/SM_AssetPlatform.uasset (452977) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Architecture/SM_AssetPlatform.uasset
+[2015.04.26-02.04.07:306][  0]LogPackFactory: Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset (441) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset
+[2015.04.26-02.04.07:308][  0]LogPackFactory: Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset (439) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset
+[2015.04.26-02.04.07:308][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x200.uasset (42169) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Architecture/Wall_400x200.uasset
+[2015.04.26-02.04.07:309][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x300.uasset (41804) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Architecture/Wall_400x300.uasset
+[2015.04.26-02.04.07:310][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_400x400.uasset (43426) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Architecture/Wall_400x400.uasset
+[2015.04.26-02.04.07:311][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_500x500.uasset (57909) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Architecture/Wall_500x500.uasset
+[2015.04.26-02.04.07:312][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x300.uasset (52430) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Architecture/Wall_Door_400x300.uasset
+[2015.04.26-02.04.07:312][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Door_400x400.uasset (53246) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Architecture/Wall_Door_400x400.uasset
+[2015.04.26-02.04.07:313][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x300.uasset (53709) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Architecture/Wall_Window_400x300.uasset
+[2015.04.26-02.04.07:314][  0]LogPackFactory: Content/StarterContent/Architecture/Wall_Window_400x400.uasset (54778) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Architecture/Wall_Window_400x400.uasset
+[2015.04.26-02.04.07:315][  0]LogPackFactory: Content/StarterContent/Audio/Collapse01.uasset (348532) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Collapse01.uasset
+[2015.04.26-02.04.07:316][  0]LogPackFactory: Content/StarterContent/Audio/Collapse02.uasset (346701) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Collapse02.uasset
+[2015.04.26-02.04.07:317][  0]LogPackFactory: Content/StarterContent/Audio/Collapse_Cue.uasset (6113) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Collapse_Cue.uasset
+[2015.04.26-02.04.07:319][  0]LogPackFactory: Content/StarterContent/Audio/Explosion01.uasset (282440) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Explosion01.uasset
+[2015.04.26-02.04.07:320][  0]LogPackFactory: Content/StarterContent/Audio/Explosion02.uasset (289195) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Explosion02.uasset
+[2015.04.26-02.04.07:321][  0]LogPackFactory: Content/StarterContent/Audio/Explosion_Cue.uasset (7657) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Explosion_Cue.uasset
+[2015.04.26-02.04.07:322][  0]LogPackFactory: Content/StarterContent/Audio/Fire01.uasset (549696) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Fire01.uasset
+[2015.04.26-02.04.07:323][  0]LogPackFactory: Content/StarterContent/Audio/Fire01_Cue.uasset (3894) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Fire01_Cue.uasset
+[2015.04.26-02.04.07:324][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01.uasset (796274) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Fire_Sparks01.uasset
+[2015.04.26-02.04.07:325][  0]LogPackFactory: Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset (3908) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset
+[2015.04.26-02.04.07:325][  0]LogPackFactory: Content/StarterContent/Audio/Light01.uasset (364532) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Light01.uasset
+[2015.04.26-02.04.07:326][  0]LogPackFactory: Content/StarterContent/Audio/Light01_Cue.uasset (3852) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Light01_Cue.uasset
+[2015.04.26-02.04.07:327][  0]LogPackFactory: Content/StarterContent/Audio/Light02.uasset (308156) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Light02.uasset
+[2015.04.26-02.04.07:328][  0]LogPackFactory: Content/StarterContent/Audio/Light02_Cue.uasset (3852) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Light02_Cue.uasset
+[2015.04.26-02.04.07:329][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01.uasset (476002) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Smoke01.uasset
+[2015.04.26-02.04.07:330][  0]LogPackFactory: Content/StarterContent/Audio/Smoke01_Cue.uasset (3872) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Smoke01_Cue.uasset
+[2015.04.26-02.04.07:331][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Background_Cue.uasset (9874) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Starter_Background_Cue.uasset
+[2015.04.26-02.04.07:331][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Birds01.uasset (2689459) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Starter_Birds01.uasset
+[2015.04.26-02.04.07:335][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music01.uasset (8445372) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Starter_Music01.uasset
+[2015.04.26-02.04.07:341][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Music_Cue.uasset (3390) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Starter_Music_Cue.uasset
+[2015.04.26-02.04.07:342][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind05.uasset (2312702) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Starter_Wind05.uasset
+[2015.04.26-02.04.07:344][  0]LogPackFactory: Content/StarterContent/Audio/Starter_Wind06.uasset (2195539) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Starter_Wind06.uasset
+[2015.04.26-02.04.07:346][  0]LogPackFactory: Content/StarterContent/Audio/Steam01.uasset (819028) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Steam01.uasset
+[2015.04.26-02.04.07:347][  0]LogPackFactory: Content/StarterContent/Audio/Steam01_Cue.uasset (3900) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Audio/Steam01_Cue.uasset
+[2015.04.26-02.04.07:348][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset (1011) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
+[2015.04.26-02.04.07:349][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset (44857) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
+[2015.04.26-02.04.07:350][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset (67062) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
+[2015.04.26-02.04.07:352][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset (100458) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2015.04.26-02.04.07:353][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset (75669) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2015.04.26-02.04.07:354][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/Skybox.uasset (644855) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Blueprints/Assets/Skybox.uasset
+[2015.04.26-02.04.07:355][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset (520136) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
+[2015.04.26-02.04.07:356][  0]LogPackFactory: Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset (1506) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
+[2015.04.26-02.04.07:357][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset (66613) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2015.04.26-02.04.07:358][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset (8324) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2015.04.26-02.04.07:361][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset (8332) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2015.04.26-02.04.07:361][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset (8346) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2015.04.26-02.04.07:362][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset (8365) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2015.04.26-02.04.07:363][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset (8354) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2015.04.26-02.04.07:364][  0]LogPackFactory: Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset (52866) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2015.04.26-02.04.07:365][  0]LogPackFactory: Content/StarterContent/Blueprints/BP_LightStudio.uasset (337416) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2015.04.26-02.04.07:365][  0]LogPackFactory: Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset (72364642) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+[2015.04.26-02.04.07:411][  0]LogPackFactory: Content/StarterContent/Maps/Advanced_Lighting.umap (223408) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Maps/Advanced_Lighting.umap
+[2015.04.26-02.04.07:412][  0]LogPackFactory: Content/StarterContent/Maps/Minimal_Default.umap (2154106) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Maps/Minimal_Default.umap
+[2015.04.26-02.04.07:414][  0]LogPackFactory: Content/StarterContent/Maps/StarterMap.umap (16371806) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Maps/StarterMap.umap
+[2015.04.26-02.04.07:427][  0]LogPackFactory: Content/StarterContent/Materials/M_AssetPlatform.uasset (68672) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_AssetPlatform.uasset
+[2015.04.26-02.04.07:428][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Floor.uasset (65286) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2015.04.26-02.04.07:428][  0]LogPackFactory: Content/StarterContent/Materials/M_Basic_Wall.uasset (55455) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2015.04.26-02.04.07:433][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset (100568) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset
+[2015.04.26-02.04.07:434][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_New.uasset (130734) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Brick_Clay_New.uasset
+[2015.04.26-02.04.07:434][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Clay_Old.uasset (123390) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset
+[2015.04.26-02.04.07:435][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset (122803) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
+[2015.04.26-02.04.07:435][  0]LogPackFactory: Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset (90915) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset
+[2015.04.26-02.04.07:436][  0]LogPackFactory: Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset (91562) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
+[2015.04.26-02.04.07:437][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset (122364) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
+[2015.04.26-02.04.07:437][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Rough.uasset (199387) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset
+[2015.04.26-02.04.07:438][  0]LogPackFactory: Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset (206806) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset
+[2015.04.26-02.04.07:439][  0]LogPackFactory: Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset (85099) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
+[2015.04.26-02.04.07:439][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Grime.uasset (91620) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Concrete_Grime.uasset
+[2015.04.26-02.04.07:440][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Panels.uasset (102285) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Concrete_Panels.uasset
+[2015.04.26-02.04.07:440][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Poured.uasset (104859) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Concrete_Poured.uasset
+[2015.04.26-02.04.07:441][  0]LogPackFactory: Content/StarterContent/Materials/M_Concrete_Tiles.uasset (105831) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Concrete_Tiles.uasset
+[2015.04.26-02.04.07:444][  0]LogPackFactory: Content/StarterContent/Materials/M_Glass.uasset (48151) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Glass.uasset
+[2015.04.26-02.04.07:445][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Grass.uasset (95378) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2015.04.26-02.04.07:446][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Gravel.uasset (120447) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Ground_Gravel.uasset
+[2015.04.26-02.04.07:446][  0]LogPackFactory: Content/StarterContent/Materials/M_Ground_Moss.uasset (128000) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Ground_Moss.uasset
+[2015.04.26-02.04.07:447][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset (79826) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset
+[2015.04.26-02.04.07:448][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset (97779) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset
+[2015.04.26-02.04.07:448][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Chrome.uasset (79618) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Metal_Chrome.uasset
+[2015.04.26-02.04.07:449][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Copper.uasset (94475) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Metal_Copper.uasset
+[2015.04.26-02.04.07:449][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Gold.uasset (96084) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2015.04.26-02.04.07:458][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Rust.uasset (109365) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Metal_Rust.uasset
+[2015.04.26-02.04.07:459][  0]LogPackFactory: Content/StarterContent/Materials/M_Metal_Steel.uasset (96230) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Metal_Steel.uasset
+[2015.04.26-02.04.07:459][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Basalt.uasset (121462) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2015.04.26-02.04.07:460][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset (98409) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset
+[2015.04.26-02.04.07:461][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Sandstone.uasset (113552) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Rock_Sandstone.uasset
+[2015.04.26-02.04.07:461][  0]LogPackFactory: Content/StarterContent/Materials/M_Rock_Slate.uasset (110874) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Rock_Slate.uasset
+[2015.04.26-02.04.07:462][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset (98373) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset
+[2015.04.26-02.04.07:463][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset (140303) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2015.04.26-02.04.07:463][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset (115223) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2015.04.26-02.04.07:466][  0]LogPackFactory: Content/StarterContent/Materials/M_Tech_Panel.uasset (98003) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Tech_Panel.uasset
+[2015.04.26-02.04.07:467][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Lake.uasset (96267) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Water_Lake.uasset
+[2015.04.26-02.04.07:467][  0]LogPackFactory: Content/StarterContent/Materials/M_Water_Ocean.uasset (100717) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Water_Ocean.uasset
+[2015.04.26-02.04.07:468][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset (82816) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
+[2015.04.26-02.04.07:469][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset (100628) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
+[2015.04.26-02.04.07:469][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Oak.uasset (107121) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Wood_Oak.uasset
+[2015.04.26-02.04.07:470][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Pine.uasset (97740) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Wood_Pine.uasset
+[2015.04.26-02.04.07:471][  0]LogPackFactory: Content/StarterContent/Materials/M_Wood_Walnut.uasset (93022) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Materials/M_Wood_Walnut.uasset
+[2015.04.26-02.04.07:471][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Burst.uasset (43524) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Particles/Materials/M_Burst.uasset
+[2015.04.26-02.04.07:472][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset (40952) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset
+[2015.04.26-02.04.07:473][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset (62151) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
+[2015.04.26-02.04.07:475][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset (62224) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset
+[2015.04.26-02.04.07:476][  0]LogPackFactory: Content/StarterContent/Particles/Materials/m_flare_01.uasset (48172) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Particles/Materials/m_flare_01.uasset
+[2015.04.26-02.04.07:476][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset (38287) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset
+[2015.04.26-02.04.07:477][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset (41181) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset
+[2015.04.26-02.04.07:477][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_radial_ramp.uasset (41193) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+[2015.04.26-02.04.07:478][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset (76603) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2015.04.26-02.04.07:479][  0]LogPackFactory: Content/StarterContent/Particles/Materials/M_Spark.uasset (43678) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2015.04.26-02.04.07:479][  0]LogPackFactory: Content/StarterContent/Particles/P_Ambient_Dust.uasset (43456) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Particles/P_Ambient_Dust.uasset
+[2015.04.26-02.04.07:480][  0]LogPackFactory: Content/StarterContent/Particles/P_Explosion.uasset (280221) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Particles/P_Explosion.uasset
+[2015.04.26-02.04.07:489][  0]LogPackFactory: Content/StarterContent/Particles/P_Fire.uasset (259431) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Particles/P_Fire.uasset
+[2015.04.26-02.04.07:489][  0]LogPackFactory: Content/StarterContent/Particles/P_Smoke.uasset (65670) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Particles/P_Smoke.uasset
+[2015.04.26-02.04.07:490][  0]LogPackFactory: Content/StarterContent/Particles/P_Sparks.uasset (171805) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Particles/P_Sparks.uasset
+[2015.04.26-02.04.07:491][  0]LogPackFactory: Content/StarterContent/Particles/P_Steam_Lit.uasset (117332) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2015.04.26-02.04.07:491][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Bush.uasset (99988) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/Materials/M_Bush.uasset
+[2015.04.26-02.04.07:492][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Chair.uasset (90187) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/Materials/M_Chair.uasset
+[2015.04.26-02.04.07:493][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Door.uasset (87249) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/Materials/M_Door.uasset
+[2015.04.26-02.04.07:496][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Frame.uasset (78682) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/Materials/M_Frame.uasset
+[2015.04.26-02.04.07:497][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Lamp.uasset (90486) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/Materials/M_Lamp.uasset
+[2015.04.26-02.04.07:498][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere.uasset (66766) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
+[2015.04.26-02.04.07:498][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset (58832) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
+[2015.04.26-02.04.07:499][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Rock.uasset (114715) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/Materials/M_Rock.uasset
+[2015.04.26-02.04.07:500][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Shelf.uasset (78255) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2015.04.26-02.04.07:500][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_Statue.uasset (72790) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/Materials/M_Statue.uasset
+[2015.04.26-02.04.07:501][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_StatueGlass.uasset (56436) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/Materials/M_StatueGlass.uasset
+[2015.04.26-02.04.07:502][  0]LogPackFactory: Content/StarterContent/Props/Materials/M_TableRound.uasset (89531) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2015.04.26-02.04.07:502][  0]LogPackFactory: Content/StarterContent/Props/MaterialSphere.uasset (174533) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/MaterialSphere.uasset
+[2015.04.26-02.04.07:503][  0]LogPackFactory: Content/StarterContent/Props/SM_Bush.uasset (152902) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/SM_Bush.uasset
+[2015.04.26-02.04.07:503][  0]LogPackFactory: Content/StarterContent/Props/SM_Chair.uasset (213058) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/SM_Chair.uasset
+[2015.04.26-02.04.07:507][  0]LogPackFactory: Content/StarterContent/Props/SM_CornerFrame.uasset (104587) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/SM_CornerFrame.uasset
+[2015.04.26-02.04.07:507][  0]LogPackFactory: Content/StarterContent/Props/SM_Couch.uasset (254658) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/SM_Couch.uasset
+[2015.04.26-02.04.07:508][  0]LogPackFactory: Content/StarterContent/Props/SM_Door.uasset (214917) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/SM_Door.uasset
+[2015.04.26-02.04.07:509][  0]LogPackFactory: Content/StarterContent/Props/SM_DoorFrame.uasset (65546) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/SM_DoorFrame.uasset
+[2015.04.26-02.04.07:509][  0]LogPackFactory: Content/StarterContent/Props/SM_GlassWindow.uasset (97538) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/SM_GlassWindow.uasset
+[2015.04.26-02.04.07:510][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Ceiling.uasset (318571) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset
+[2015.04.26-02.04.07:510][  0]LogPackFactory: Content/StarterContent/Props/SM_Lamp_Wall.uasset (140246) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/SM_Lamp_Wall.uasset
+[2015.04.26-02.04.07:511][  0]LogPackFactory: Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset (2396647) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset
+[2015.04.26-02.04.07:513][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame.uasset (127007) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/SM_PillarFrame.uasset
+[2015.04.26-02.04.07:513][  0]LogPackFactory: Content/StarterContent/Props/SM_PillarFrame300.uasset (124350) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/SM_PillarFrame300.uasset
+[2015.04.26-02.04.07:514][  0]LogPackFactory: Content/StarterContent/Props/SM_Rock.uasset (175516) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/SM_Rock.uasset
+[2015.04.26-02.04.07:514][  0]LogPackFactory: Content/StarterContent/Props/SM_Shelf.uasset (108862) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/SM_Shelf.uasset
+[2015.04.26-02.04.07:515][  0]LogPackFactory: Content/StarterContent/Props/SM_Stairs.uasset (66807) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/SM_Stairs.uasset
+[2015.04.26-02.04.07:516][  0]LogPackFactory: Content/StarterContent/Props/SM_Statue.uasset (537153) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/SM_Statue.uasset
+[2015.04.26-02.04.07:524][  0]LogPackFactory: Content/StarterContent/Props/SM_TableRound.uasset (528732) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/SM_TableRound.uasset
+[2015.04.26-02.04.07:525][  0]LogPackFactory: Content/StarterContent/Props/SM_WindowFrame.uasset (68758) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Props/SM_WindowFrame.uasset
+[2015.04.26-02.04.07:526][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cone.uasset (94233) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_Cone.uasset
+[2015.04.26-02.04.07:527][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cube.uasset (45498) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_Cube.uasset
+[2015.04.26-02.04.07:527][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Cylinder.uasset (109276) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_Cylinder.uasset
+[2015.04.26-02.04.07:529][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset (211325) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
+[2015.04.26-02.04.07:530][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe.uasset (78407) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_Pipe.uasset
+[2015.04.26-02.04.07:531][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_180.uasset (193692) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_Pipe_180.uasset
+[2015.04.26-02.04.07:531][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Pipe_90.uasset (120200) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_Pipe_90.uasset
+[2015.04.26-02.04.07:532][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Plane.uasset (43121) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_Plane.uasset
+[2015.04.26-02.04.07:533][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_QuadPyramid.uasset (43744) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
+[2015.04.26-02.04.07:533][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Sphere.uasset (264634) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_Sphere.uasset
+[2015.04.26-02.04.07:534][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Torus.uasset (558042) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_Torus.uasset
+[2015.04.26-02.04.07:535][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim.uasset (51867) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_Trim.uasset
+[2015.04.26-02.04.07:535][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_In.uasset (74804) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
+[2015.04.26-02.04.07:536][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset (75706) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
+[2015.04.26-02.04.07:536][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_TriPyramid.uasset (41629) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_TriPyramid.uasset
+[2015.04.26-02.04.07:537][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Tube.uasset (190123) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_Tube.uasset
+[2015.04.26-02.04.07:538][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_A.uasset (45020) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_Wedge_A.uasset
+[2015.04.26-02.04.07:540][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_Wedge_B.uasset (40642) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_Wedge_B.uasset
+[2015.04.26-02.04.07:541][  0]LogPackFactory: Content/StarterContent/Shapes/Shape_WideCapsule.uasset (150007) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Shapes/Shape_WideCapsule.uasset
+[2015.04.26-02.04.07:541][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2.uasset (446) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/Metal_Tile_2.uasset
+[2015.04.26-02.04.07:542][  0]LogPackFactory: Content/StarterContent/Textures/Metal_Tile_2_N.uasset (450) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/Metal_Tile_2_N.uasset
+[2015.04.26-02.04.07:542][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048.uasset (446) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/Sky54a2048.uasset
+[2015.04.26-02.04.07:551][  0]LogPackFactory: Content/StarterContent/Textures/Sky54a2048LDR.uasset (449) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/Sky54a2048LDR.uasset
+[2015.04.26-02.04.07:551][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01.uasset (450) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_ArmorMetal01.uasset
+[2015.04.26-02.04.07:552][  0]LogPackFactory: Content/StarterContent/Textures/T_ArmorMetal01_N.uasset (452) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_ArmorMetal01_N.uasset
+[2015.04.26-02.04.07:552][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_D.uasset (446) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Bark02_D.uasset
+[2015.04.26-02.04.07:553][  0]LogPackFactory: Content/StarterContent/Textures/T_Bark02_N.uasset (446) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Bark02_N.uasset
+[2015.04.26-02.04.07:553][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset (455) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset
+[2015.04.26-02.04.07:554][  0]LogPackFactory: Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset (455) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset
+[2015.04.26-02.04.07:554][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset (7649619) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
+[2015.04.26-02.04.07:559][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset (8326301) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
+[2015.04.26-02.04.07:564][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset (7553391) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
+[2015.04.26-02.04.07:569][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset (6035708) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset
+[2015.04.26-02.04.07:573][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset (9201530) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset
+[2015.04.26-02.04.07:578][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset (7865847) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset
+[2015.04.26-02.04.07:583][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset (11424774) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset
+[2015.04.26-02.04.07:591][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset (7794699) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset
+[2015.04.26-02.04.07:596][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset (13386492) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset
+[2015.04.26-02.04.07:603][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset (6679434) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset
+[2015.04.26-02.04.07:608][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset (7446677) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
+[2015.04.26-02.04.07:612][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset (6802269) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
+[2015.04.26-02.04.07:616][  0]LogPackFactory: Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset (8992435) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
+[2015.04.26-02.04.07:622][  0]LogPackFactory: Content/StarterContent/Textures/T_Burst_M.uasset (150025) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Burst_M.uasset
+[2015.04.26-02.04.07:622][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_D.uasset (552540) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Bush_D.uasset
+[2015.04.26-02.04.07:623][  0]LogPackFactory: Content/StarterContent/Textures/T_Bush_N.uasset (396574) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Bush_N.uasset
+[2015.04.26-02.04.07:624][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset (277243) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset
+[2015.04.26-02.04.07:625][  0]LogPackFactory: Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset (228293) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset
+[2015.04.26-02.04.07:627][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_M.uasset (576769) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Chair_M.uasset
+[2015.04.26-02.04.07:628][  0]LogPackFactory: Content/StarterContent/Textures/T_Chair_N.uasset (1937145) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Chair_N.uasset
+[2015.04.26-02.04.07:629][  0]LogPackFactory: Content/StarterContent/Textures/T_Checker_Noise_M.uasset (158406) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Checker_Noise_M.uasset
+[2015.04.26-02.04.07:630][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_M.uasset (432) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Cliff_M.uasset
+[2015.04.26-02.04.07:630][  0]LogPackFactory: Content/StarterContent/Textures/T_Cliff_N.uasset (432) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Cliff_N.uasset
+[2015.04.26-02.04.07:631][  0]LogPackFactory: Content/StarterContent/Textures/T_Cobble_01_H.uasset (449) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Cobble_01_H.uasset
+[2015.04.26-02.04.07:631][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleDark_01_D.uasset (453) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_CobbleDark_01_D.uasset
+[2015.04.26-02.04.07:632][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_D.uasset (454) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_CobbleStone_04_D.uasset
+[2015.04.26-02.04.07:633][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_N.uasset (454) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_CobbleStone_04_N.uasset
+[2015.04.26-02.04.07:635][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04_R.uasset (454) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_CobbleStone_04_R.uasset
+[2015.04.26-02.04.07:635][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset (455) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset
+[2015.04.26-02.04.07:636][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset (11812314) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset
+[2015.04.26-02.04.07:642][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset (1313598) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset
+[2015.04.26-02.04.07:644][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset (11858728) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset
+[2015.04.26-02.04.07:650][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset (2936250) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset
+[2015.04.26-02.04.07:652][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset (2700400) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset
+[2015.04.26-02.04.07:654][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset (6603341) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset
+[2015.04.26-02.04.07:658][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset (5739577) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset
+[2015.04.26-02.04.07:662][  0]LogPackFactory: Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset (8846507) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset
+[2015.04.26-02.04.07:667][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_D.uasset (450) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete01_D.uasset
+[2015.04.26-02.04.07:678][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete01_N.uasset (450) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete01_N.uasset
+[2015.04.26-02.04.07:678][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_D.uasset (451) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_01_D.uasset
+[2015.04.26-02.04.07:679][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_01_N.uasset (451) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_01_N.uasset
+[2015.04.26-02.04.07:680][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_D.uasset (448) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_D.uasset
+[2015.04.26-02.04.07:680][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01.uasset (454) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_Floor01.uasset
+[2015.04.26-02.04.07:681][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset (456) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset
+[2015.04.26-02.04.07:682][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Grime_D.uasset (10691506) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset
+[2015.04.26-02.04.07:688][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_N.uasset (448) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_N.uasset
+[2015.04.26-02.04.07:688][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_D.uasset (8513286) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset
+[2015.04.26-02.04.07:693][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Panels_N.uasset (6558914) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset
+[2015.04.26-02.04.07:698][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_D.uasset (11600993) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset
+[2015.04.26-02.04.07:704][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Poured_N.uasset (7452814) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset
+[2015.04.26-02.04.07:708][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset (4956380) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset
+[2015.04.26-02.04.07:720][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset (5759659) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset
+[2015.04.26-02.04.07:723][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset (6611650) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset
+[2015.04.26-02.04.07:727][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset (4809) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
+[2015.04.26-02.04.07:728][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07.uasset (453) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_Wall07.uasset
+[2015.04.26-02.04.07:729][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset (455) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset
+[2015.04.26-02.04.07:730][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_D.uasset (453) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_Wall_D.uasset
+[2015.04.26-02.04.07:730][  0]LogPackFactory: Content/StarterContent/Textures/T_Concrete_Wall_N.uasset (453) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Concrete_Wall_N.uasset
+[2015.04.26-02.04.07:731][  0]LogPackFactory: Content/StarterContent/Textures/T_DesertCrystal01_N.uasset (455) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_DesertCrystal01_N.uasset
+[2015.04.26-02.04.07:731][  0]LogPackFactory: Content/StarterContent/Textures/T_Detail_Rocky_N.uasset (2850093) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset
+[2015.04.26-02.04.07:733][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_D.uasset (444) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Dirt_D.uasset
+[2015.04.26-02.04.07:734][  0]LogPackFactory: Content/StarterContent/Textures/T_Dirt_N.uasset (444) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Dirt_N.uasset
+[2015.04.26-02.04.07:735][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_M.uasset (554190) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Door_M.uasset
+[2015.04.26-02.04.07:737][  0]LogPackFactory: Content/StarterContent/Textures/T_Door_N.uasset (1074859) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Door_N.uasset
+[2015.04.26-02.04.07:738][  0]LogPackFactory: Content/StarterContent/Textures/T_Dust_Particle_D.uasset (32071) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Dust_Particle_D.uasset
+[2015.04.26-02.04.07:739][  0]LogPackFactory: Content/StarterContent/Textures/T_Explosion_SubUV.uasset (3004336) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Explosion_SubUV.uasset
+[2015.04.26-02.04.07:741][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_SubUV.uasset (525012) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Fire_SubUV.uasset
+[2015.04.26-02.04.07:742][  0]LogPackFactory: Content/StarterContent/Textures/T_Fire_Tiled_D.uasset (553370) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset
+[2015.04.26-02.04.07:743][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_M.uasset (536068) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Frame_M.uasset
+[2015.04.26-02.04.07:743][  0]LogPackFactory: Content/StarterContent/Textures/T_Frame_N.uasset (1249187) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Frame_N.uasset
+[2015.04.26-02.04.07:745][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset (461) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset
+[2015.04.26-02.04.07:745][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset (463) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset
+[2015.04.26-02.04.07:746][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset (463) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset
+[2015.04.26-02.04.07:747][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset (463) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset
+[2015.04.26-02.04.07:747][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset (462) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset
+[2015.04.26-02.04.07:748][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset (464) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset
+[2015.04.26-02.04.07:749][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset (462) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset
+[2015.04.26-02.04.07:749][  0]LogPackFactory: Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset (464) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset
+[2015.04.26-02.04.07:750][  0]LogPackFactory: Content/StarterContent/Textures/T_Gradinet_01.uasset (5447) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Gradinet_01.uasset
+[2015.04.26-02.04.07:751][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_D.uasset (425) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Gravel_D.uasset
+[2015.04.26-02.04.07:751][  0]LogPackFactory: Content/StarterContent/Textures/T_Gravel_N.uasset (425) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Gravel_N.uasset
+[2015.04.26-02.04.07:754][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_D.uasset (449) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Ground_01_D.uasset
+[2015.04.26-02.04.07:755][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_01_N.uasset (449) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Ground_01_N.uasset
+[2015.04.26-02.04.07:756][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_D.uasset (449) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Ground_02_D.uasset
+[2015.04.26-02.04.07:756][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_02_N.uasset (449) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Ground_02_N.uasset
+[2015.04.26-02.04.07:757][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Detail_N.uasset (453) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Ground_Detail_N.uasset
+[2015.04.26-02.04.07:758][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_D.uasset (451) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Ground_Dirt_D.uasset
+[2015.04.26-02.04.07:758][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Dirt_N.uasset (451) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Ground_Dirt_N.uasset
+[2015.04.26-02.04.07:759][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_D.uasset (12014827) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Ground_Grass_D.uasset
+[2015.04.26-02.04.07:765][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Grass_N.uasset (11617917) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Ground_Grass_N.uasset
+[2015.04.26-02.04.07:772][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_D.uasset (10627659) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
+[2015.04.26-02.04.07:778][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Gravel_N.uasset (7408581) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset
+[2015.04.26-02.04.07:782][  0]LogPackFactory: Content/StarterContent/Textures/T_ground_Moss_D.uasset (13034653) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_ground_Moss_D.uasset
+[2015.04.26-02.04.07:790][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Moss_N.uasset (8389816) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Ground_Moss_N.uasset
+[2015.04.26-02.04.07:795][  0]LogPackFactory: Content/StarterContent/Textures/T_Ground_Noise_N.uasset (431) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Ground_Noise_N.uasset
+[2015.04.26-02.04.07:796][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_M.uasset (781809) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Lamp_M.uasset
+[2015.04.26-02.04.07:797][  0]LogPackFactory: Content/StarterContent/Textures/T_Lamp_N.uasset (2076923) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Lamp_N.uasset
+[2015.04.26-02.04.07:799][  0]LogPackFactory: Content/StarterContent/Textures/T_MacroVariation.uasset (10882792) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_MacroVariation.uasset
+[2015.04.26-02.04.07:805][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset (9680629) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset
+[2015.04.26-02.04.07:811][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Copper_D.uasset (8854788) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Copper_D.uasset
+[2015.04.26-02.04.07:817][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset (460) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset
+[2015.04.26-02.04.07:818][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset (460) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset
+[2015.04.26-02.04.07:818][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_D.uasset (8838906) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Gold_D.uasset
+[2015.04.26-02.04.07:966][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Gold_N.uasset (2813572) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Gold_N.uasset
+[2015.04.26-02.04.07:971][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_D.uasset (453) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Metal01_D.uasset
+[2015.04.26-02.04.07:973][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal01_N.uasset (453) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Metal01_N.uasset
+[2015.04.26-02.04.07:975][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_D.uasset (453) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Metal03_D.uasset
+[2015.04.26-02.04.07:977][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Metal03_N.uasset (453) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Metal03_N.uasset
+[2015.04.26-02.04.07:979][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset (456) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset
+[2015.04.26-02.04.07:980][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset (456) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset
+[2015.04.26-02.04.07:982][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset (453) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset
+[2015.04.26-02.04.07:984][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset (453) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset
+[2015.04.26-02.04.07:986][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_D.uasset (9329320) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Rust_D.uasset
+[2015.04.26-02.04.07:998][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Rust_N.uasset (7504761) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Rust_N.uasset
+[2015.04.26-02.04.08:004][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset (453) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset
+[2015.04.26-02.04.08:004][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset (453) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset
+[2015.04.26-02.04.08:005][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_D.uasset (3581726) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Steel_D.uasset
+[2015.04.26-02.04.08:008][  0]LogPackFactory: Content/StarterContent/Textures/T_Metal_Steel_N.uasset (4922590) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Metal_Steel_N.uasset
+[2015.04.26-02.04.08:012][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset (456) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset
+[2015.04.26-02.04.08:012][  0]LogPackFactory: Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset (456) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset
+[2015.04.26-02.04.08:013][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01.uasset (452) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_PaintedMetal01.uasset
+[2015.04.26-02.04.08:014][  0]LogPackFactory: Content/StarterContent/Textures/T_PaintedMetal01_N.uasset (454) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_PaintedMetal01_N.uasset
+[2015.04.26-02.04.08:015][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_D.uasset (451) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_PatchyGrass_D.uasset
+[2015.04.26-02.04.08:015][  0]LogPackFactory: Content/StarterContent/Textures/T_PatchyGrass_N.uasset (451) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_PatchyGrass_N.uasset
+[2015.04.26-02.04.08:016][  0]LogPackFactory: Content/StarterContent/Textures/T_Perlin_Noise_M.uasset (7869402) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset
+[2015.04.26-02.04.08:022][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_D.uasset (447) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_01_D.uasset
+[2015.04.26-02.04.08:023][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_01_N.uasset (447) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_01_N.uasset
+[2015.04.26-02.04.08:023][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_D.uasset (447) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_03_D.uasset
+[2015.04.26-02.04.08:024][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_03_N.uasset (447) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_03_N.uasset
+[2015.04.26-02.04.08:025][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_D.uasset (447) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_05_D.uasset
+[2015.04.26-02.04.08:026][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_05_N.uasset (447) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_05_N.uasset
+[2015.04.26-02.04.08:026][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_D.uasset (447) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_06_D.uasset
+[2015.04.26-02.04.08:027][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_06_N.uasset (447) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_06_N.uasset
+[2015.04.26-02.04.08:028][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_D.uasset (447) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_07_D.uasset
+[2015.04.26-02.04.08:028][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07_N.uasset (447) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_07_N.uasset
+[2015.04.26-02.04.08:029][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_07b_D.uasset (448) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_07b_D.uasset
+[2015.04.26-02.04.08:030][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_D.uasset (447) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_08_D.uasset
+[2015.04.26-02.04.08:030][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_08_N.uasset (447) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_08_N.uasset
+[2015.04.26-02.04.08:031][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_09_D.uasset (447) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_09_D.uasset
+[2015.04.26-02.04.08:032][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_D.uasset (447) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_10_D.uasset
+[2015.04.26-02.04.08:032][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_10_N.uasset (447) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_10_N.uasset
+[2015.04.26-02.04.08:033][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_11b_D.uasset (448) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_11b_D.uasset
+[2015.04.26-02.04.08:056][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_D.uasset (9359943) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset
+[2015.04.26-02.04.08:062][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Basalt_N.uasset (7847129) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset
+[2015.04.26-02.04.08:067][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset (454) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset
+[2015.04.26-02.04.08:068][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset (454) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset
+[2015.04.26-02.04.08:069][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset (454) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset
+[2015.04.26-02.04.08:069][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset (5327483) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset
+[2015.04.26-02.04.08:073][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset (9234423) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset
+[2015.04.26-02.04.08:078][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset (8399811) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset
+[2015.04.26-02.04.08:083][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_D.uasset (12333988) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_Slate_D.uasset
+[2015.04.26-02.04.08:090][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Slate_N.uasset (9649859) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_Slate_N.uasset
+[2015.04.26-02.04.08:096][  0]LogPackFactory: Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset (8829490) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
+[2015.04.26-02.04.08:101][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_M.uasset (2706973) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_RockMesh_M.uasset
+[2015.04.26-02.04.08:103][  0]LogPackFactory: Content/StarterContent/Textures/T_RockMesh_N.uasset (5375053) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_RockMesh_N.uasset
+[2015.04.26-02.04.08:106][  0]LogPackFactory: Content/StarterContent/Textures/T_Rocky_01_N.uasset (448) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Rocky_01_N.uasset
+[2015.04.26-02.04.08:107][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_M.uasset (651298) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Shelf_M.uasset
+[2015.04.26-02.04.08:108][  0]LogPackFactory: Content/StarterContent/Textures/T_Shelf_N.uasset (1639501) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Shelf_N.uasset
+[2015.04.26-02.04.08:109][  0]LogPackFactory: Content/StarterContent/Textures/T_Single_Tile_N.uasset (6402) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Single_Tile_N.uasset
+[2015.04.26-02.04.08:110][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Clouds_M.uasset (450) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Sky_Clouds_M.uasset
+[2015.04.26-02.04.08:110][  0]LogPackFactory: Content/StarterContent/Textures/T_Sky_Stars.uasset (447) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Sky_Stars.uasset
+[2015.04.26-02.04.08:111][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_SubUV.uasset (2630744) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+[2015.04.26-02.04.08:113][  0]LogPackFactory: Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset (91431) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+[2015.04.26-02.04.08:114][  0]LogPackFactory: Content/StarterContent/Textures/T_Spark_Core.uasset (162316) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Spark_Core.uasset
+[2015.04.26-02.04.08:114][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_M.uasset (546786) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Statue_M.uasset
+[2015.04.26-02.04.08:115][  0]LogPackFactory: Content/StarterContent/Textures/T_Statue_N.uasset (515360) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Statue_N.uasset
+[2015.04.26-02.04.08:116][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_D.uasset (451) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Stone_Brick_D.uasset
+[2015.04.26-02.04.08:116][  0]LogPackFactory: Content/StarterContent/Textures/T_Stone_Brick_N.uasset (451) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Stone_Brick_N.uasset
+[2015.04.26-02.04.08:117][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_M.uasset (870486) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_TableRound_M.uasset
+[2015.04.26-02.04.08:118][  0]LogPackFactory: Content/StarterContent/Textures/T_TableRound_N.uasset (1549086) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_TableRound_N.uasset
+[2015.04.26-02.04.08:119][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_M.uasset (107174) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Tech_Dot_M.uasset
+[2015.04.26-02.04.08:120][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Dot_N.uasset (202333) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Tech_Dot_N.uasset
+[2015.04.26-02.04.08:121][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset (793459) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset
+[2015.04.26-02.04.08:122][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset (493875) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset
+[2015.04.26-02.04.08:123][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_M.uasset (979689) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Tech_Panel_M.uasset
+[2015.04.26-02.04.08:124][  0]LogPackFactory: Content/StarterContent/Textures/T_Tech_Panel_N.uasset (1860674) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Tech_Panel_N.uasset
+[2015.04.26-02.04.08:125][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset (461) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset
+[2015.04.26-02.04.08:143][  0]LogPackFactory: Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset (461) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset
+[2015.04.26-02.04.08:143][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02.uasset (452) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_UNV_Concrete02.uasset
+[2015.04.26-02.04.08:144][  0]LogPackFactory: Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset (454) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset
+[2015.04.26-02.04.08:145][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_M.uasset (1696467) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Water_M.uasset
+[2015.04.26-02.04.08:146][  0]LogPackFactory: Content/StarterContent/Textures/T_Water_N.uasset (2087420) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Water_N.uasset
+[2015.04.26-02.04.08:147][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset (459) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset
+[2015.04.26-02.04.08:148][  0]LogPackFactory: Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset (459) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset
+[2015.04.26-02.04.08:149][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_a_d.uasset (446) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Wood_a_d.uasset
+[2015.04.26-02.04.08:149][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_N.uasset (446) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Wood_A_N.uasset
+[2015.04.26-02.04.08:150][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_A_S.uasset (446) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Wood_A_S.uasset
+[2015.04.26-02.04.08:150][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset (4584206) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
+[2015.04.26-02.04.08:153][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset (3940729) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
+[2015.04.26-02.04.08:156][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset (2858538) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
+[2015.04.26-02.04.08:158][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_D.uasset (6707252) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Wood_Oak_D.uasset
+[2015.04.26-02.04.08:162][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Oak_N.uasset (6245295) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Wood_Oak_N.uasset
+[2015.04.26-02.04.08:166][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_D.uasset (9690724) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Wood_Pine_D.uasset
+[2015.04.26-02.04.08:171][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Pine_N.uasset (3467174) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Wood_Pine_N.uasset
+[2015.04.26-02.04.08:174][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_D.uasset (6509713) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset
+[2015.04.26-02.04.08:178][  0]LogPackFactory: Content/StarterContent/Textures/T_Wood_Walnut_N.uasset (3836013) -> ../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset
+[2015.04.26-02.04.08:180][  0]LogPackFactory: Finished extracting 750 files (including 0 errors).
+[2015.04.26-02.04.08:570][  0]LogRenderer:Warning: Reallocating scene render targets to support 256x256 (Frame:2).
+[2015.04.26-02.04.08:947][  0]LogSavePackage: Save=325.588562ms
+[2015.04.26-02.04.08:947][  0]LogSavePackage: Moving '../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Saved/Floor_400x400A2BD146741BE564F5D69AA8D662718AF.tmp' to '../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2015.04.26-02.04.08:949][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2015.04.26-02.04.08:950][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dude/Documents/Unreal Projects/DeadMeat/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.26-02.04.08:950][  0]LightingResults: New page: Lighting Build
+[2015.04.26-02.04.08:962][  0]MapCheck: New page: Map Check
+[2015.04.26-02.04.08:962][  0]LightingResults: New page: Lighting Build
+[2015.04.26-02.04.08:967][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001553A520
+[2015.04.26-02.04.08:975][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.26-02.04.10:407][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.26-02.04.11:229][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.26-02.04.11:230][  0]Cmd: MAP CHECKDEP
+[2015.04.26-02.04.11:230][  0]MapCheck: New page: FirstPersonExampleMap - Apr 25, 2015, 12:04:11 PM
+[2015.04.26-02.04.11:306][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.903ms to complete.
+[2015.04.26-02.04.11:306][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.357
+[2015.04.26-02.04.11:452][  0]LogCollectionManager: Loaded 0 collections in 0.001839 seconds
+[2015.04.26-02.04.11:461][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 1696 classes and 261 folders.
+[2015.04.26-02.04.11:509][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2015.04.26-02.04.11:591][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.26-02.04.11:597][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.26-02.04.11:600][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.26-02.04.11:624][  0]LogLoad: Full Startup: 22.40 seconds (BP compile: 0.57 seconds)
+[2015.04.26-02.04.11:657][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP'
+[2015.04.26-02.04.11:979][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x656 (Frame:3).
+[2015.04.26-02.04.12:197][  3]LogAssetRegistry: Asset discovery search completed in 11.9983 seconds
+[2015.04.26-02.04.14:489][ 77]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.26-02.04.14:489][ 77]PIE: New page: PIE session: FirstPersonExampleMap (Apr 25, 2015, 12:04:14 PM)
+[2015.04.26-02.04.14:505][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015958s)
+[2015.04.26-02.04.14:506][ 77]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2015.04.26-02.04.14:507][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017330s)
+[2015.04.26-02.04.14:640][ 77]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.26-02.04.14:647][ 77]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.26-02.04.14:655][ 77]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.25-19.04.14
+[2015.04.26-02.04.14:656][ 77]LogWorld: Bringing up level for play took: 0.008215
+[2015.04.26-02.04.14:660][ 77]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.539
+[2015.04.26-02.04.47:974][ 42]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003D21B240
+[2015.04.26-02.04.52:687][307]Cmd: QUIT_EDITOR
+[2015.04.26-02.04.52:950][307]LogExit: Preparing to exit.
+[2015.04.26-02.04.53:263][307]LogExit: Editor shut down
+[2015.04.26-02.04.53:263][307]LogExit: Transaction tracking system shut down
+[2015.04.26-02.04.53:264][307]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CB15260
+[2015.04.26-02.04.53:264][307]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019A89760
+[2015.04.26-02.04.53:265][307]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003D280540
+[2015.04.26-02.04.53:363][307]LogExit: Object subsystem successfully closed.
+[2015.04.26-02.04.53:408][307]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.26-02.04.53:408][307]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.26-02.04.53:408][307]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.26-02.04.53:408][307]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.26-02.04.53:408][307]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.26-02.04.53:408][307]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.26-02.04.53:408][307]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.26-02.04.53:408][307]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.26-02.04.53:408][307]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.26-02.04.53:408][307]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.26-02.04.53:408][307]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.26-02.04.53:408][307]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.26-02.04.53:408][307]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.26-02.04.53:408][307]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.26-02.04.53:408][307]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.26-02.04.53:409][307]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.26-02.04.53:409][307]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.26-02.04.53:409][307]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.26-02.04.53:409][307]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.26-02.04.53:409][307]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.26-02.04.53:409][307]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.26-02.04.53:409][307]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.26-02.04.53:409][307]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.26-02.04.53:409][307]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.26-02.04.53:409][307]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.26-02.04.53:409][307]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.26-02.04.53:409][307]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.26-02.04.53:409][307]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.26-02.04.53:409][307]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.26-02.04.53:409][307]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.26-02.04.53:409][307]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.26-02.04.53:409][307]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.26-02.04.54:109][307]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.26-02.04.54:109][307]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.26-02.04.54:109][307]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.26-02.04.54:109][307]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.26-02.04.54:109][307]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.26-02.04.54:110][307]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.26-02.04.54:110][307]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.26-02.04.54:110][307]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.26-02.04.54:110][307]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.26-02.04.54:110][307]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.26-02.04.54:110][307]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.26-02.04.54:110][307]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.26-02.04.54:110][307]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.26-02.04.54:110][307]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.26-02.04.54:110][307]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.26-02.04.54:110][307]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.26-02.04.54:110][307]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.26-02.04.54:110][307]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.26-02.04.54:111][307]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.26-02.04.54:159][307]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.26-02.04.54:159][307]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.26-02.04.54:159][307]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.26-02.04.54:161][307]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.26-02.04.54:161][307]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.26-02.04.54:161][307]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.26-02.04.54:161][307]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.26-02.04.54:161][307]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.26-02.04.54:161][307]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.26-02.04.54:161][307]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.26-02.04.54:161][307]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.26-02.04.54:161][307]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.26-02.04.54:161][307]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.26-02.04.54:161][307]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.26-02.04.54:161][307]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.26-02.04.54:161][307]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.26-02.04.54:161][307]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.26-02.04.54:161][307]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.26-02.04.54:161][307]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.26-02.04.54:161][307]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.26-02.04.54:161][307]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.26-02.04.54:358][307]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.26-02.04.54:358][307]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.26-02.04.54:358][307]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.26-02.04.54:358][307]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.26-02.04.54:358][307]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.26-02.04.54:358][307]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.26-02.04.54:358][307]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.26-02.04.54:358][307]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.26-02.04.54:358][307]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.26-02.04.54:358][307]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.26-02.04.54:358][307]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.26-02.04.54:358][307]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.26-02.04.54:358][307]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.26-02.04.54:359][307]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.26-02.04.54:359][307]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.26-02.04.54:359][307]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.26-02.04.54:359][307]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.26-02.04.54:359][307]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.26-02.04.54:359][307]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.26-02.04.54:359][307]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.26-02.04.54:359][307]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.26-02.04.54:359][307]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.26-02.04.54:359][307]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.26-02.04.54:359][307]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.26-02.04.54:361][307]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.26-02.04.54:361][307]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.26-02.04.54:361][307]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.26-02.04.54:461][307]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.26-02.04.54:461][307]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.26-02.04.54:465][307]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.26-02.04.54:465][307]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.26-02.04.54:466][307]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.26-02.04.54:466][307]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.26-02.04.54:466][307]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.26-02.04.54:466][307]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.26-02.04.54:466][307]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.26-02.04.54:466][307]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.26-02.04.54:466][307]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.26-02.04.54:466][307]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.26-02.04.54:466][307]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.26-02.04.54:466][307]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.26-02.04.54:466][307]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.26-02.04.54:466][307]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.26-02.04.54:466][307]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.26-02.04.54:475][307]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.26-02.04.54:475][307]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.26-02.04.54:475][307]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.26-02.04.54:475][307]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.26-02.04.54:475][307]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.26-02.04.54:475][307]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.26-02.04.54:475][307]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.26-02.04.54:475][307]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.26-02.04.54:475][307]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.26-02.04.54:475][307]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.26-02.04.54:651][307]LogDerivedDataCache: Shutdown
+[2015.04.26-02.04.54:651][307]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.26-02.04.54:651][307]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.26-02.04.54:651][307]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.26-02.04.54:651][307]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.26-02.04.54:651][307]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.26-02.04.54:651][307]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.26-02.04.54:651][307]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.26-02.04.54:651][307]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.26-02.04.54:651][307]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.26-02.04.54:651][307]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.26-02.04.54:651][307]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.26-02.04.54:651][307]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.26-02.04.54:651][307]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.26-02.04.54:651][307]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.26-02.04.54:652][307]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.26-02.04.54:655][307]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.26-02.04.54:655][307]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.26-02.04.54:655][307]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.26-02.04.54:655][307]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.26-02.04.54:655][307]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.26-02.04.54:655][307]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.26-02.04.54:655][307]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.26-02.04.54:655][307]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.26-02.04.54:655][307]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.26-02.04.54:656][307]LogExit: Exiting.
+[2015.04.26-02.04.54:687][307]Log file closed, 04/25/15 19:04:54
