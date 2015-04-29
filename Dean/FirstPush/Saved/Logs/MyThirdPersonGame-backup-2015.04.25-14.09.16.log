@@ -1,0 +1,920 @@
+﻿Log file open, 04/25/15 09:46:41
+LogInit:Display: Running engine for game: MyThirdPersonGame
+LogInit: Version: 4.7.5-2503383+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr  6 2015 23:21:51
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.25-16.46.41:010][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.04.25-16.46.41:106][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.25-16.46.41:183][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.25-16.46.41:229][  0]LogInit: Object subsystem initialized
+[2015.04.25-16.46.41:239][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.25-16.46.41:239][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.25-16.46.41:239][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.25-16.46.41:239][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.25-16.46.41:239][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.25-16.46.41:239][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.25-16.46.41:242][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.25-16.46.41:242][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.25-16.46.41:280][  0]LogInit: Computer: DEAN
+[2015.04.25-16.46.41:280][  0]LogInit: User: Dean
+[2015.04.25-16.46.41:280][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.04.25-16.46.41:280][  0]LogInit: High frequency timer resolution =2.338336 MHz
+[2015.04.25-16.46.41:281][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2015.04.25-16.46.41:282][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.25-16.46.41:282][  0]LogMemory: Process Physical Memory: 46.47 MB used, 46.47 MB peak
+[2015.04.25-16.46.41:282][  0]LogMemory: Process Virtual Memory: 24.73 MB used, 24.73 MB peak
+[2015.04.25-16.46.41:282][  0]LogMemory: Physical Memory: 2239.73 MB used, 8075.46 MB total
+[2015.04.25-16.46.41:282][  0]LogMemory: Virtual Memory: 286.87 MB used, 134217728.00 MB total
+[2015.04.25-16.46.41:467][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2015.04.25-16.46.41:467][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.04.25-16.46.41:512][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 740M             (Feature Level 11_0)
+[2015.04.25-16.46.41:512][  0]LogD3D11RHI: Adapter has 1972MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 0 output[s]
+[2015.04.25-16.46.41:518][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.25-16.46.41:518][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.25-16.46.41:518][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.25-16.46.41:534][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2015.04.25-16.46.41:584][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.25-16.46.41:750][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.25-16.46.42:016][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.25-16.46.42:016][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.25-16.46.42:366][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.25-16.46.52:578][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.25-16.46.55:546][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.25-16.46.56:101][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.25-16.46.56:317][  0]LogDerivedDataCache: Loaded boot cache 0.22s 39MB C:/Users/Dean/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.25-16.46.56:317][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dean/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.25-16.46.56:318][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.25-16.46.56:318][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.25-16.46.56:910][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.25-16.46.56:930][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dean/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.25-16.46.58:171][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.25-16.46.58:171][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.25-16.46.59:174][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.25-16.46.59:465][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.25-16.47.02:571][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.25-16.47.03:427][  0]SourceControl: Info Source control is disabled
+[2015.04.25-16.47.03:427][  0]SourceControl: Info Source control is disabled
+[2015.04.25-16.47.03:428][  0]SourceControl: Info Source control is disabled
+[2015.04.25-16.47.03:428][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.25-16.47.03:428][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.25-16.47.03:474][  0]SourceControl: Info Source control is disabled
+[2015.04.25-16.47.04:560][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.25-16.47.04:560][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.04.25-16.47.04:919][  0]LogEngine: Initializing Engine...
+[2015.04.25-16.47.08:532][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.25-16.47.08:597][  0]LogInit: FAudioDevice initialized.
+[2015.04.25-16.47.08:791][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.25-16.47.08:857][  0]LogDerivedDataCache: Saved boot cache 0.06s 39MB C:/Users/Dean/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.25-16.47.08:866][  0]LogInit: Texture streaming: Enabled
+[2015.04.25-16.47.09:305][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.25-16.47.09:305][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.25-16.47.09:305][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.25-16.47.09:306][  0]LogAnalytics: SetUserId 910d50be45690666f5f2d593bf8be2f0|066eb542fbc44451808d2154e76a0e26|8364f941-f0a8-46f3-a7e2-f1f90b6af0a2
+[2015.04.25-16.47.09:306][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.25-16.47.09:419][  0]LogInit: Transaction tracking system initialized
+[2015.04.25-16.47.10:313][  0]BlueprintLog: New page: Editor Load
+[2015.04.25-16.47.10:465][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2015.04.25-16.47.10:467][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.25-16.47.13:463][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.25-16.47.15:284][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.25-16.47.16:616][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.25-16.47.16:618][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.25-16.47.16:800][  0]LogConsoleResponse:Display: 
+[2015.04.25-16.47.17:501][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.25-16.47.18:449][  0]SourceControl: Info Source control is disabled
+[2015.04.25-16.47.18:450][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.25-16.47.18:453][  0]LightingResults: New page: Lighting Build
+[2015.04.25-16.47.18:529][  0]MapCheck: New page: Map Check
+[2015.04.25-16.47.18:529][  0]LightingResults: New page: Lighting Build
+[2015.04.25-16.47.18:604][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE68890C20
+[2015.04.25-16.47.22:168][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.25-16.47.22:222][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-16.47.22:226][  0]Cmd: MAP CHECKDEP
+[2015.04.25-16.47.22:226][  0]MapCheck: New page: Minimal_Default - Apr 25, 2015, 2:47:22 AM
+[2015.04.25-16.47.22:738][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 511.335ms to complete.
+[2015.04.25-16.47.22:738][  0]LogFileHelpers: Loading map 'Minimal_Default' took 4.289
+[2015.04.25-16.47.23:159][  0]LogCollectionManager: Loaded 0 collections in 0.009195 seconds
+[2015.04.25-16.47.23:206][  0]LogContentBrowser: Native class hierarchy populated in 0.0459 seconds. Added 1696 classes and 261 folders.
+[2015.04.25-16.47.23:378][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0120 seconds. Added 1 classes and 2 folders.
+[2015.04.25-16.47.23:624][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.25-16.47.23:628][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.25-16.47.23:662][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.25-16.47.23:720][  0]LogLoad: Full Startup: 47.27 seconds (BP compile: 0.39 seconds)
+[2015.04.25-16.47.24:371][  0]LogRenderer:Warning: Reallocating scene render targets to support 856x376 (Frame:2).
+[2015.04.25-16.47.25:353][  1]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Character'
+[2015.04.25-16.47.27:085][ 26]LogAssetRegistry: Asset discovery search completed in 16.6306 seconds
+[2015.04.25-16.47.47:457][ 65]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-16.47.47:458][ 65]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 2:47:47 AM)
+[2015.04.25-16.47.47:477][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017983s)
+[2015.04.25-16.47.47:480][ 65]LogPlayLevel: PIE: World Init took: (0.002487s)
+[2015.04.25-16.47.47:480][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.021203s)
+[2015.04.25-16.47.47:613][ 65]LogWorld: Game class is 'GameMode'
+[2015.04.25-16.47.47:622][ 65]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-16.47.47:642][ 65]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.04.25-09.47.47
+[2015.04.25-16.47.47:645][ 65]LogWorld: Bringing up level for play took: 0.020716
+[2015.04.25-16.47.47:658][ 65]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.298
+[2015.04.25-16.48.03:398][821]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE6D5F1F80
+[2015.04.25-16.51.58:758][871]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.58:759][871]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.58:919][878]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.58:920][878]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.58:944][879]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.58:944][879]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.58:968][880]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.58:969][880]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.58:995][881]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.58:995][881]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:019][882]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:019][882]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:020][882]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:020][882]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:043][883]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:043][883]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:045][883]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:045][883]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:100][884]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:100][884]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:101][884]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:102][884]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:124][885]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:124][885]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:148][886]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:148][886]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:174][887]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:174][887]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:198][888]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:198][888]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:223][889]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:223][889]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:224][889]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:224][889]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:246][890]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:246][890]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:271][891]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:271][891]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:273][891]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:273][891]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:295][892]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:296][892]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:297][892]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:297][892]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:319][893]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:320][893]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:321][893]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:321][893]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:343][894]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:344][894]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:368][895]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:368][895]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:392][896]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:393][896]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:416][897]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:416][897]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:440][898]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:440][898]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:465][899]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:465][899]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:490][900]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:490][900]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:515][901]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:515][901]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:517][901]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:517][901]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:540][902]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:540][902]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:565][903]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:565][903]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:590][904]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:590][904]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:615][905]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:615][905]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:641][906]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:641][906]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:667][907]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:667][907]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:692][908]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:692][908]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:717][909]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:717][909]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:743][910]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:744][910]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:769][911]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:769][911]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:794][912]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:794][912]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:847][914]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:848][914]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:894][916]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:894][916]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.51.59:943][918]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.51.59:943][918]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.52.23:631][693]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.52.23:632][693]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.52.27:087][833]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-16.52.27:087][833]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 2:52:27 AM)
+[2015.04.25-16.52.27:108][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019497s)
+[2015.04.25-16.52.27:110][833]LogPlayLevel: PIE: World Init took: (0.002139s)
+[2015.04.25-16.52.27:111][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.022194s)
+[2015.04.25-16.52.27:182][833]LogWorld: Game class is 'GameMode'
+[2015.04.25-16.52.27:187][833]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-16.52.27:201][833]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.04.25-09.52.27
+[2015.04.25-16.52.27:203][833]LogWorld: Bringing up level for play took: 0.013824
+[2015.04.25-16.52.27:211][833]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.745
+[2015.04.25-16.52.34:371][177]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE5EF3B9C0
+[2015.04.25-16.52.35:596][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.04.25-16.52.36:931][259]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.04.25-16.52.39:316][344]Cmd: SELECT NONE
+[2015.04.25-16.53.29:366][  0]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.53.29:367][  0]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.53.29:429][  1]LogRenderer:Warning: Reallocating scene render targets to support 856x376 (Frame:5319).
+[2015.04.25-16.53.32:551][ 60]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.53.32:552][ 60]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.53.32:626][ 61]LogRenderer:Warning: Reallocating scene render targets to support 856x376 (Frame:5378).
+[2015.04.25-16.53.38:227][164]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.53.38:227][164]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.53.38:325][165]LogRenderer:Warning: Reallocating scene render targets to support 856x376 (Frame:5481).
+[2015.04.25-16.53.39:623][194]LogConsoleManager:Warning: Console variable 'r.Streaming.PoolSize' wasn't set (Priority Code < Scalability)
+[2015.04.25-16.53.39:624][194]LogConsoleManager:Warning: Console variable 'r.MaterialQualityLevel' wasn't set (Priority Console < Scalability)
+[2015.04.25-16.53.39:682][195]LogRenderer:Warning: Reallocating scene render targets to support 856x376 (Frame:5511).
+[2015.04.25-16.53.44:173][307]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-16.53.44:174][307]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 2:53:44 AM)
+[2015.04.25-16.53.44:195][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019715s)
+[2015.04.25-16.53.44:198][307]LogPlayLevel: PIE: World Init took: (0.002170s)
+[2015.04.25-16.53.44:198][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.022540s)
+[2015.04.25-16.53.44:269][307]LogWorld: Game class is 'GameMode'
+[2015.04.25-16.53.44:274][307]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-16.53.44:288][307]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.04.25-09.53.44
+[2015.04.25-16.53.44:290][307]LogWorld: Bringing up level for play took: 0.014686
+[2015.04.25-16.53.44:298][307]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.343
+[2015.04.25-16.53.57:770][851]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE6159DEE0
+[2015.04.25-16.54.00:811][960]Cmd: SELECT NONE
+[2015.04.25-16.54.34:046][600]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.04.25-16.54.34:328][600]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.25-16.55.02:046][639]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2015.04.25-16.55.44:003][197]LogRenderer:Warning: Reallocating scene render targets to support 856x608 (Frame:8886).
+[2015.04.25-16.55.44:003][197]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.04.25-16.58.02:379][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE68267240
+[2015.04.25-16.58.02:383][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE6D8BE700
+[2015.04.25-16.58.02:387][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE6D8BE0C0
+[2015.04.25-16.58.02:389][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE740D9080
+[2015.04.25-16.58.02:391][ 49]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE740DAD40
+[2015.04.25-16.58.02:456][ 49]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.414
+[2015.04.25-17.13.29:531][777]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.219
+[2015.04.25-17.13.29:599][777]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Character/CharacterAnimBP] ([1] browsable assets)...
+[2015.04.25-17.13.29:775][777]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/StarterContent/Character/CharacterAnimBP.CharacterAnimBP]
+[2015.04.25-17.13.29:776][777]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Character/CharacterAnimBP]
+[2015.04.25-17.13.32:357][777]LogSavePackage: Save=2527.136475ms
+[2015.04.25-17.13.32:388][777]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/CharacterAnimBP_Auto1DE296ADC43BB4F6BC24E1FB32F78A8D3.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Autosaves/Game/StarterContent/Character/CharacterAnimBP_Auto1.uasset'
+[2015.04.25-17.13.32:452][777]LogFileHelpers: Auto-saving content packages took 2.921
+[2015.04.25-17.14.09:065][483]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.04.25-17.16.44:854][264]Cmd: TRANSACTION UNDO
+[2015.04.25-17.16.44:854][264]LogEditorTransaction: Undo Create Pin Link
+[2015.04.25-17.16.51:668][507]Cmd: TRANSACTION UNDO
+[2015.04.25-17.16.51:668][507]LogEditorTransaction: Undo Create Pin Link
+[2015.04.25-17.16.54:513][571]Cmd: TRANSACTION UNDO
+[2015.04.25-17.16.54:513][571]LogEditorTransaction: Undo Create Pin Link
+[2015.04.25-17.16.58:018][698]Cmd: TRANSACTION UNDO
+[2015.04.25-17.16.58:018][698]LogEditorTransaction: Undo Promote To Variable
+[2015.04.25-17.18.49:058][ 61]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.04.25-17.18.49:502][ 61]BlueprintEditorCompileResults: Info [1933.05] Compile of CharacterAnimBP successful! [in 443 ms]
+[2015.04.25-17.23.33:356][677]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.048
+[2015.04.25-17.23.33:390][677]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Character/CharacterAnimBP] ([1] browsable assets)...
+[2015.04.25-17.23.33:451][677]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/StarterContent/Character/CharacterAnimBP.CharacterAnimBP]
+[2015.04.25-17.23.33:451][677]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Character/CharacterAnimBP]
+[2015.04.25-17.23.34:145][677]LogSavePackage: Save=668.712280ms
+[2015.04.25-17.23.34:166][677]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/CharacterAnimBP_Auto2FF9DDC0F49CEC06618950B9F21AFB9D1.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Autosaves/Game/StarterContent/Character/CharacterAnimBP_Auto2.uasset'
+[2015.04.25-17.23.34:192][677]LogFileHelpers: Auto-saving content packages took 0.837
+[2015.04.25-17.33.34:519][283]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.079
+[2015.04.25-17.33.34:561][283]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Character/CharacterAnimBP] ([1] browsable assets)...
+[2015.04.25-17.33.34:641][283]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/StarterContent/Character/CharacterAnimBP.CharacterAnimBP]
+[2015.04.25-17.33.34:641][283]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Character/CharacterAnimBP]
+[2015.04.25-17.33.35:224][283]LogSavePackage: Save=571.253662ms
+[2015.04.25-17.33.35:227][283]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/CharacterAnimBP_Auto39D00E1C04A4D353FF37DF1BD7106C5F1.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Autosaves/Game/StarterContent/Character/CharacterAnimBP_Auto3.uasset'
+[2015.04.25-17.33.35:315][283]LogFileHelpers: Auto-saving content packages took 0.796
+[2015.04.25-17.40.45:458][361]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.04.25-17.40.45:538][361]LogBlueprint:Warning: [compiler] Warning  JumpLoop to JumpEnd  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.25-17.40.45:680][361]LogBlueprint:Warning: [compiler] Warning [3249.23] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 222 ms]
+[2015.04.25-17.40.45:680][361]BlueprintEditorCompileResults:Warning: Warning  JumpLoop to JumpEnd  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.25-17.40.45:680][361]BlueprintEditorCompileResults:Warning: Warning [3249.23] Compile of CharacterAnimBP successful, but with 1 Warning(s) [in 222 ms]
+[2015.04.25-17.43.38:581][323]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.054
+[2015.04.25-17.43.38:617][323]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Character/CharacterAnimBP] ([1] browsable assets)...
+[2015.04.25-17.43.38:666][323]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/StarterContent/Character/CharacterAnimBP.CharacterAnimBP]
+[2015.04.25-17.43.38:666][323]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Character/CharacterAnimBP]
+[2015.04.25-17.43.39:239][323]LogSavePackage: Save=560.976685ms
+[2015.04.25-17.43.39:241][323]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/CharacterAnimBP_Auto4B5A47B794C838447EE81F9B9197E368D.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Autosaves/Game/StarterContent/Character/CharacterAnimBP_Auto4.uasset'
+[2015.04.25-17.43.39:319][323]LogFileHelpers: Auto-saving content packages took 0.737
+[2015.04.25-17.45.01:404][ 89]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.04.25-17.45.01:595][ 89]BlueprintEditorCompileResults: Info [3505.14] Compile of CharacterAnimBP successful! [in 190 ms]
+[2015.04.25-17.47.19:095][555]LogSavePackage: Save=487.770782ms
+[2015.04.25-17.47.19:095][555]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/CharacterAnimBP76002DEB472C5CBFFD96C7BFF14D77C3.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Character/CharacterAnimBP.uasset'
+[2015.04.25-17.48.07:332][301]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.04.25-17.48.07:568][301]BlueprintEditorCompileResults: Info [3691.11] Compile of CharacterAnimBP successful! [in 236 ms]
+[2015.04.25-17.53.42:718][539]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.054
+[2015.04.25-17.53.42:755][539]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Character/CharacterAnimBP] ([1] browsable assets)...
+[2015.04.25-17.53.42:808][539]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/StarterContent/Character/CharacterAnimBP.CharacterAnimBP]
+[2015.04.25-17.53.42:808][539]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Character/CharacterAnimBP]
+[2015.04.25-17.53.43:417][539]LogSavePackage: Save=578.903137ms
+[2015.04.25-17.53.43:418][539]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/CharacterAnimBP_Auto5B01C1C3B4D05C57923C058967AC52EC8.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Autosaves/Game/StarterContent/Character/CharacterAnimBP_Auto5.uasset'
+[2015.04.25-17.53.43:496][539]LogFileHelpers: Auto-saving content packages took 0.778
+[2015.04.25-17.58.00:963][834]LogSavePackage: Save=514.143372ms
+[2015.04.25-17.58.00:963][834]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/CharacterAnimBP8FA99C5E44DAFF7838C03BB0BBD8C545.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Character/CharacterAnimBP.uasset'
+[2015.04.25-17.58.54:194][219]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Character'
+[2015.04.25-17.59.30:957][134]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE617D6660
+[2015.04.25-17.59.30:959][134]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE617D7A60
+[2015.04.25-17.59.30:961][134]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE76C554E0
+[2015.04.25-17.59.30:962][134]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE77440900
+[2015.04.25-17.59.30:980][134]LogMetaData: Removing '/Game/StarterContent/Character/MyCharacter.MyCharacter:UserConstructionScript.K2Node_FunctionEntry_145' ref from Metadata '/Game/StarterContent/Character/MyChracter.PackageMetaData'
+[2015.04.25-17.59.30:980][134]LogMetaData: Removing '/Game/StarterContent/Character/MyCharacter.MyCharacter:EventGraph.K2Node_Event_169' ref from Metadata '/Game/StarterContent/Character/MyChracter.PackageMetaData'
+[2015.04.25-17.59.30:980][134]LogMetaData: Removing '/Game/StarterContent/Character/MyCharacter.SKEL_MyCharacter_C' ref from Metadata '/Game/StarterContent/Character/MyChracter.PackageMetaData'
+[2015.04.25-17.59.30:980][134]LogMetaData: Removing '/Game/StarterContent/Character/MyCharacter.MyCharacter_C' ref from Metadata '/Game/StarterContent/Character/MyChracter.PackageMetaData'
+[2015.04.25-17.59.30:980][134]LogMetaData: Removing '/Game/StarterContent/Character/MyCharacter.MyCharacter:EventGraph.K2Node_Event_168' ref from Metadata '/Game/StarterContent/Character/MyChracter.PackageMetaData'
+[2015.04.25-17.59.30:980][134]LogMetaData: Removing '/Game/StarterContent/Character/MyCharacter.MyCharacter:EventGraph.K2Node_Event_170' ref from Metadata '/Game/StarterContent/Character/MyChracter.PackageMetaData'
+[2015.04.25-17.59.31:151][134]LogSavePackage: Save=47.257538ms
+[2015.04.25-17.59.31:151][134]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyCharacter4D72A257425C7794426DD593632CD029.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Character/MyCharacter.uasset'
+[2015.04.25-18.03.44:146][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-18.03.44:198][586]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE746267A0
+[2015.04.25-18.03.44:202][586]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE744BA020
+[2015.04.25-18.03.44:202][586]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.055
+[2015.04.25-18.03.44:341][586]LogSavePackage: Save=132.495071ms
+[2015.04.25-18.03.44:344][586]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyChracter_Auto6BDB1250243BAD15DB2DB36847FE03FAE.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Autosaves/Game/StarterContent/Character/MyChracter_Auto6.uasset'
+[2015.04.25-18.03.44:403][586]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Character/MyCharacter] ([1] browsable assets)...
+[2015.04.25-18.03.44:450][586]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Character/MyCharacter.MyCharacter]
+[2015.04.25-18.03.44:450][586]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Character/MyCharacter]
+[2015.04.25-18.03.45:022][586]LogSavePackage: Save=555.239685ms
+[2015.04.25-18.03.45:025][586]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyCharacter_Auto66D53DD9E4B02F4DE49CF0D8DD97258A0.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Autosaves/Game/StarterContent/Character/MyCharacter_Auto6.uasset'
+[2015.04.25-18.03.45:108][586]LogFileHelpers: Auto-saving content packages took 0.906
+[2015.04.25-18.05.16:410][215]Cmd: MODE ROTGRID=0
+[2015.04.25-18.06.26:059][464]LogRenderer:Warning: Reallocating scene render targets to support 1016x608 (Frame:190965).
+[2015.04.25-18.07.11:261][ 50]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.04.25-18.07.14:407][105]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-18.08.48:611][326]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.04.25-18.08.54:896][443]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.04.25-18.08.59:723][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.04.25-18.09.03:061][621]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.04.25-18.09.07:982][730]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.04.25-18.09.43:791][981]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.04.25-18.10.47:143][423]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.04.25-18.12.15:706][800]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.04.25-18.12.43:117][175]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.04.25-18.13.46:008][509]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.04.25-18.13.46:055][509]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.046
+[2015.04.25-18.13.46:152][509]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Character/MyCharacter] ([1] browsable assets)...
+[2015.04.25-18.13.46:234][509]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Character/MyCharacter.MyCharacter]
+[2015.04.25-18.13.46:234][509]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Character/MyCharacter]
+[2015.04.25-18.13.46:859][509]LogSavePackage: Save=611.300537ms
+[2015.04.25-18.13.46:901][509]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyCharacter_Auto78E75C7AE4E30A8C895812FBB5D8A2545.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Autosaves/Game/StarterContent/Character/MyCharacter_Auto7.uasset'
+[2015.04.25-18.13.46:945][509]LogFileHelpers: Auto-saving content packages took 0.891
+[2015.04.25-18.17.06:572][425]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-18.17.28:096][617]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.04.25-18.18.42:382][985]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.04.25-18.20.55:114][990]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.04.25-18.21.13:413][424]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.04.25-18.23.47:307][310]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.04.25-18.23.47:391][310]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.084
+[2015.04.25-18.23.47:435][310]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Character/MyCharacter] ([1] browsable assets)...
+[2015.04.25-18.23.47:510][310]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Character/MyCharacter.MyCharacter]
+[2015.04.25-18.23.47:510][310]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Character/MyCharacter]
+[2015.04.25-18.23.48:363][310]LogSavePackage: Save=833.492676ms
+[2015.04.25-18.23.48:377][310]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyCharacter_Auto8F2A445BA49AE413255C1AA8E0D8242DE.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Autosaves/Game/StarterContent/Character/MyCharacter_Auto8.uasset'
+[2015.04.25-18.23.48:401][310]LogFileHelpers: Auto-saving content packages took 1.010
+[2015.04.25-18.24.23:680][905]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-18.30.33:910][936]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.04.25-18.30.37:066][ 35]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.04.25-18.30.38:846][ 82]Cmd: TRANSACTION UNDO
+[2015.04.25-18.30.38:846][ 82]LogEditorTransaction: Undo Rename Node
+[2015.04.25-18.30.38:873][ 82]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.04.25-18.30.44:744][245]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.04.25-18.33.42:906][696]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.04.25-18.33.42:970][696]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.064
+[2015.04.25-18.33.43:011][696]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Character/MyCharacter] ([1] browsable assets)...
+[2015.04.25-18.33.43:066][696]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StarterContent/Character/MyCharacter.MyCharacter]
+[2015.04.25-18.33.43:066][696]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Character/MyCharacter]
+[2015.04.25-18.33.43:660][696]LogSavePackage: Save=575.280029ms
+[2015.04.25-18.33.43:664][696]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyCharacter_Auto9B6A68B044A30C297A2D7C9B4BE23AD4C.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Autosaves/Game/StarterContent/Character/MyCharacter_Auto9.uasset'
+[2015.04.25-18.33.43:754][696]LogFileHelpers: Auto-saving content packages took 0.784
+[2015.04.25-18.36.54:536][713]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-18.40.27:782][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.04.25-18.41.35:040][652]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.04.25-18.43.22:569][639]BlueprintLog: New page: Compile MyCharacter
+[2015.04.25-18.43.22:772][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2015.04.25-18.43.22:855][639]BlueprintEditorCompileResults: Info [7006.40] Compile of MyCharacter successful! [in 285 ms]
+[2015.04.25-18.43.25:622][694]LogSavePackage: Save=609.130188ms
+[2015.04.25-18.43.25:622][694]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyCharacter091119064EE2AEEB48FF82B3D6F783AB.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Character/MyCharacter.uasset'
+[2015.04.25-18.44.03:319][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.04.25-18.44.21:715][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.04.25-18.44.30:613][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.04.25-18.44.31:165][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.04.25-18.44.44:497][941]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-18.44.44:979][941]LogSavePackage: Save=270.946106ms
+[2015.04.25-18.44.44:979][941]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Minimal_Default_Auto0D2A90BE94E6D2019775D36B15F6D5529.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto0.umap'
+[2015.04.25-18.44.45:014][941]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.517
+[2015.04.25-18.44.45:014][941]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.517
+[2015.04.25-18.45.06:056][ 67]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.04.25-18.45.07:649][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.04.25-18.45.25:031][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.04.25-18.45.29:349][954]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.04.25-18.45.38:807][  8]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.04.25-18.45.39:612][ 39]Cmd: SELECT NONE
+[2015.04.25-18.46.28:511][917]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Character'
+[2015.04.25-18.47.17:757][326]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.04.25-18.47.51:851][565]BlueprintLog: New page: Compile MyGame
+[2015.04.25-18.47.51:936][565]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-18.47.52:002][565]BlueprintEditorCompileResults: Info [7275.55] Compile of MyGame successful! [in 150 ms]
+[2015.04.25-18.47.54:881][686]LogSavePackage: Save=21.358351ms
+[2015.04.25-18.47.54:881][686]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyGame911FC72A42111EA293CC21A3CA6E5181.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Character/MyGame.uasset'
+[2015.04.25-18.48.35:104][442]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.04.25-18.48.40:966][644]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.04.25-18.48.43:027][707]Cmd: UpdateLandscapeSetup
+[2015.04.25-18.49.01:599][809]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2015.04.25-18.49.03:762][876]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.25-18.49.03:771][876]LogPlayLevel: [PIE] Compiling CharacterAnimBP before PIE...
+[2015.04.25-18.49.04:206][876]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-18.49.04:252][876]LogPlayLevel: PIE:  Blueprint regeneration took 490 ms (1 blueprints)
+[2015.04.25-18.49.04:252][876]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 4:49:04 AM)
+[2015.04.25-18.49.04:259][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005852s)
+[2015.04.25-18.49.04:260][876]LogPlayLevel: PIE: World Init took: (0.001236s)
+[2015.04.25-18.49.04:260][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007375s)
+[2015.04.25-18.49.04:296][876]LogWorld: Game class is 'MyGame_C'
+[2015.04.25-18.49.04:298][876]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-18.49.04:301][876]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.04.25-11.49.04
+[2015.04.25-18.49.04:302][876]LogWorld: Bringing up level for play took: 0.003668
+[2015.04.25-18.49.04:305][876]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.35
+[2015.04.25-18.49.38:114][332]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE07C88400
+[2015.04.25-18.50.01:714][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Table)
+[2015.04.25-18.50.02:780][480]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-18.50.02:781][480]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 4:50:02 AM)
+[2015.04.25-18.50.02:794][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012165s)
+[2015.04.25-18.50.02:795][480]LogPlayLevel: PIE: World Init took: (0.001487s)
+[2015.04.25-18.50.02:796][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.014125s)
+[2015.04.25-18.50.02:846][480]LogWorld: Game class is 'MyGame_C'
+[2015.04.25-18.50.02:849][480]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-18.50.02:857][480]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.04.25-11.50.02
+[2015.04.25-18.50.02:859][480]LogWorld: Bringing up level for play took: 0.008805
+[2015.04.25-18.50.02:866][480]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.91
+[2015.04.25-18.50.34:607][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-18.50.34:667][866]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE744B9E40
+[2015.04.25-18.51.27:480][339]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-18.51.27:480][339]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 4:51:27 AM)
+[2015.04.25-18.51.27:496][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005246s)
+[2015.04.25-18.51.27:497][339]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2015.04.25-18.51.27:497][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.006383s)
+[2015.04.25-18.51.27:538][339]LogWorld: Game class is 'MyGame_C'
+[2015.04.25-18.51.27:540][339]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-18.51.27:546][339]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.04.25-11.51.27
+[2015.04.25-18.51.27:547][339]LogWorld: Bringing up level for play took: 0.005832
+[2015.04.25-18.51.27:550][339]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.405
+[2015.04.25-18.51.41:109][934]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-18.51.41:187][934]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE7B934D60
+[2015.04.25-18.52.22:362][172]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-18.52.22:611][172]LogSavePackage: Save=186.503998ms
+[2015.04.25-18.52.22:611][172]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Minimal_DefaultB46F0EAF4CBE8612532ABC9D7387174B.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.04.25-18.52.23:957][211]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-18.52.23:957][211]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 4:52:23 AM)
+[2015.04.25-18.52.23:972][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006632s)
+[2015.04.25-18.52.23:973][211]LogPlayLevel: PIE: World Init took: (0.000987s)
+[2015.04.25-18.52.23:973][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007903s)
+[2015.04.25-18.52.24:015][211]LogWorld: Game class is 'MyGame_C'
+[2015.04.25-18.52.24:017][211]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-18.52.24:022][211]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2015.04.25-11.52.24
+[2015.04.25-18.52.24:023][211]LogWorld: Bringing up level for play took: 0.005083
+[2015.04.25-18.52.24:027][211]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.071
+[2015.04.25-18.53.00:333][653]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE77C46660
+[2015.04.25-18.53.00:334][653]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE76C309A0
+[2015.04.25-18.53.00:334][653]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE7798EB60
+[2015.04.25-18.54.54:309][701]BlueprintLog: New page: Compile MyCharacter
+[2015.04.25-18.54.54:449][701]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-18.54.54:515][701]BlueprintEditorCompileResults: Info [7698.06] Compile of MyCharacter successful! [in 205 ms]
+[2015.04.25-18.54.57:692][768]LogSavePackage: Save=578.566101ms
+[2015.04.25-18.54.57:692][768]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyCharacter10AAF2DB401C058FE898ADB7B5ED7ECE.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Character/MyCharacter.uasset'
+[2015.04.25-18.55.11:351][173]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-18.55.11:396][173]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE74262480
+[2015.04.25-18.55.11:609][173]LogSavePackage: Save=200.986084ms
+[2015.04.25-18.55.11:609][173]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Minimal_DefaultD4EB2A1445D261117901A58FA6EE379D.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.04.25-18.56.05:296][408]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-18.56.05:297][408]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 4:56:05 AM)
+[2015.04.25-18.56.05:317][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018348s)
+[2015.04.25-18.56.05:320][408]LogPlayLevel: PIE: World Init took: (0.002697s)
+[2015.04.25-18.56.05:320][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.021801s)
+[2015.04.25-18.56.05:390][408]LogWorld: Game class is 'MyGame_C'
+[2015.04.25-18.56.05:396][408]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-18.56.05:409][408]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.04.25-11.56.05
+[2015.04.25-18.56.05:412][408]LogWorld: Bringing up level for play took: 0.014344
+[2015.04.25-18.56.05:423][408]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.533
+[2015.04.25-18.56.32:840][459]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-18.56.32:954][459]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE68267740
+[2015.04.25-18.57.24:241][647]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-18.57.24:241][647]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 4:57:24 AM)
+[2015.04.25-18.57.24:262][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019221s)
+[2015.04.25-18.57.24:265][647]LogPlayLevel: PIE: World Init took: (0.002477s)
+[2015.04.25-18.57.24:265][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.022356s)
+[2015.04.25-18.57.24:335][647]LogWorld: Game class is 'MyGame_C'
+[2015.04.25-18.57.24:340][647]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-18.57.24:354][647]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.04.25-11.57.24
+[2015.04.25-18.57.24:356][647]LogWorld: Bringing up level for play took: 0.014377
+[2015.04.25-18.57.24:368][647]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.413
+[2015.04.25-18.58.10:604][414]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-18.58.10:718][414]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE764802C0
+[2015.04.25-18.59.30:282][900]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-18.59.34:079][968]BlueprintLog: New page: Compile MyCharacter
+[2015.04.25-18.59.34:376][968]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2015.04.25-18.59.34:522][968]BlueprintEditorCompileResults: Info [7978.07] Compile of MyCharacter successful! [in 442 ms]
+[2015.04.25-18.59.37:493][988]LogSavePackage: Save=1622.029907ms
+[2015.04.25-18.59.37:493][988]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyCharacter384593F440AE8B11217563A2651E19DF.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Character/MyCharacter.uasset'
+[2015.04.25-18.59.39:808][ 31]Cmd: SELECT NONE
+[2015.04.25-18.59.54:372][157]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-18.59.54:372][157]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 4:59:54 AM)
+[2015.04.25-18.59.54:394][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020056s)
+[2015.04.25-18.59.54:397][157]LogPlayLevel: PIE: World Init took: (0.002365s)
+[2015.04.25-18.59.54:397][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.023181s)
+[2015.04.25-18.59.54:474][157]LogWorld: Game class is 'MyGame_C'
+[2015.04.25-18.59.54:480][157]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-18.59.54:497][157]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.04.25-11.59.54
+[2015.04.25-18.59.54:499][157]LogWorld: Bringing up level for play took: 0.017278
+[2015.04.25-18.59.54:513][157]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.557
+[2015.04.25-19.00.08:785][663]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-19.00.08:896][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE7BEA6700
+[2015.04.25-19.02.39:539][329]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-19.02.48:892][509]BlueprintLog: New page: Compile MyCharacter
+[2015.04.25-19.02.49:182][509]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2015.04.25-19.02.49:321][509]BlueprintEditorCompileResults: Info [8172.86] Compile of MyCharacter successful! [in 427 ms]
+[2015.04.25-19.02.52:318][530]LogSavePackage: Save=1603.337646ms
+[2015.04.25-19.02.52:318][530]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyCharacter97F8C1F6436F015C6ADE57B0365469F6.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Character/MyCharacter.uasset'
+[2015.04.25-19.03.03:025][740]LogSavePackage: Save=264.880676ms
+[2015.04.25-19.03.03:025][740]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyCharacter5B7414A8446E153757A3489DE2642154.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Character/MyCharacter.uasset'
+[2015.04.25-19.03.03:721][753]BlueprintLog: New page: Compile MyCharacter
+[2015.04.25-19.03.04:011][753]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-19.03.04:155][753]BlueprintEditorCompileResults: Info [8187.70] Compile of MyCharacter successful! [in 434 ms]
+[2015.04.25-19.03.07:374][779]LogSavePackage: Save=1595.698364ms
+[2015.04.25-19.03.07:374][779]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyCharacter04E9A27D4F454360DAE0CF8F87A6DBBB.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Character/MyCharacter.uasset'
+[2015.04.25-19.03.11:261][862]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-19.03.11:261][862]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 5:03:11 AM)
+[2015.04.25-19.03.11:283][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020155s)
+[2015.04.25-19.03.11:285][862]LogPlayLevel: PIE: World Init took: (0.002064s)
+[2015.04.25-19.03.11:285][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.022753s)
+[2015.04.25-19.03.11:351][862]LogWorld: Game class is 'MyGame_C'
+[2015.04.25-19.03.11:356][862]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-19.03.11:370][862]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.04.25-12.03.11
+[2015.04.25-19.03.11:373][862]LogWorld: Bringing up level for play took: 0.014837
+[2015.04.25-19.03.11:384][862]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.572
+[2015.04.25-19.03.32:670][666]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-19.03.32:782][666]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE787B8EA0
+[2015.04.25-19.07.02:035][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-19.07.02:192][422]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.156
+[2015.04.25-19.07.38:596][218]BlueprintLog: New page: Compile MyCharacter
+[2015.04.25-19.07.38:880][218]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-19.07.39:018][218]BlueprintEditorCompileResults: Info [8462.56] Compile of MyCharacter successful! [in 420 ms]
+[2015.04.25-19.07.42:048][241]LogSavePackage: Save=1600.847778ms
+[2015.04.25-19.07.42:048][241]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyCharacter8B03B86F40BDC1E1D017A1B73F8C7652.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Character/MyCharacter.uasset'
+[2015.04.25-19.08.20:244][ 78]LogSavePackage: Save=245.582321ms
+[2015.04.25-19.08.20:244][ 78]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyCharacter5F5E18CC4512C348133992BB54E3E4DB.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Character/MyCharacter.uasset'
+[2015.04.25-19.08.24:641][161]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-19.08.24:642][161]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 5:08:24 AM)
+[2015.04.25-19.08.24:668][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025448s)
+[2015.04.25-19.08.24:671][161]LogPlayLevel: PIE: World Init took: (0.002914s)
+[2015.04.25-19.08.24:672][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.029063s)
+[2015.04.25-19.08.24:745][161]LogWorld: Game class is 'MyGame_C'
+[2015.04.25-19.08.24:750][161]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-19.08.24:765][161]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.04.25-12.08.24
+[2015.04.25-19.08.24:767][161]LogWorld: Bringing up level for play took: 0.014899
+[2015.04.25-19.08.24:778][161]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.823
+[2015.04.25-19.08.29:500][277]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-19.08.29:613][277]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE761B68E0
+[2015.04.25-19.08.33:495][361]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-19.08.33:495][361]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 5:08:33 AM)
+[2015.04.25-19.08.33:515][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018302s)
+[2015.04.25-19.08.33:517][361]LogPlayLevel: PIE: World Init took: (0.002125s)
+[2015.04.25-19.08.33:518][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.021139s)
+[2015.04.25-19.08.33:584][361]LogWorld: Game class is 'MyGame_C'
+[2015.04.25-19.08.33:590][361]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-19.08.33:603][361]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.04.25-12.08.33
+[2015.04.25-19.08.33:605][361]LogWorld: Bringing up level for play took: 0.014263
+[2015.04.25-19.08.33:616][361]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.34
+[2015.04.25-19.08.53:244][ 52]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE6847B880
+[2015.04.25-19.08.53:244][ 52]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE68478220
+[2015.04.25-19.09.49:632][164]BlueprintLog: New page: Compile MyCharacter
+[2015.04.25-19.09.49:919][164]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-19.09.50:063][164]BlueprintEditorCompileResults: Info [8593.61] Compile of MyCharacter successful! [in 431 ms]
+[2015.04.25-19.09.54:261][210]LogSavePackage: Save=1589.667236ms
+[2015.04.25-19.09.54:261][210]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyCharacter3B898F7641DDA242B09CD0AEF69DCBB4.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Character/MyCharacter.uasset'
+[2015.04.25-19.10.08:158][452]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-19.10.08:316][452]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE66A6ECA0
+[2015.04.25-19.10.08:849][452]LogSavePackage: Save=533.931824ms
+[2015.04.25-19.10.08:849][452]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Minimal_Default688E533940F4D995959BF9BF58647BD0.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.04.25-19.10.10:218][479]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-19.10.10:219][479]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 5:10:10 AM)
+[2015.04.25-19.10.10:237][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017494s)
+[2015.04.25-19.10.10:240][479]LogPlayLevel: PIE: World Init took: (0.002310s)
+[2015.04.25-19.10.10:240][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.020550s)
+[2015.04.25-19.10.10:306][479]LogWorld: Game class is 'MyGame_C'
+[2015.04.25-19.10.10:311][479]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-19.10.10:324][479]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.04.25-12.10.10
+[2015.04.25-19.10.10:326][479]LogWorld: Bringing up level for play took: 0.013995
+[2015.04.25-19.10.10:337][479]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.382
+[2015.04.25-19.10.42:007][692]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE761B4540
+[2015.04.25-19.10.42:009][692]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE6DBB1EE0
+[2015.04.25-19.10.42:010][692]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE682642C0
+[2015.04.25-19.11.50:897][ 73]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-19.12.09:532][422]BlueprintLog: New page: Compile MyCharacter
+[2015.04.25-19.12.09:821][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2015.04.25-19.12.09:970][422]BlueprintEditorCompileResults: Info [8733.51] Compile of MyCharacter successful! [in 437 ms]
+[2015.04.25-19.12.13:197][449]LogSavePackage: Save=1626.726929ms
+[2015.04.25-19.12.13:197][449]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyCharacterDCB71E0C4EE2FB0F6B917C81019454FA.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Character/MyCharacter.uasset'
+[2015.04.25-19.12.20:915][572]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-19.12.20:916][572]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 5:12:20 AM)
+[2015.04.25-19.12.20:936][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018736s)
+[2015.04.25-19.12.20:939][572]LogPlayLevel: PIE: World Init took: (0.002393s)
+[2015.04.25-19.12.20:939][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.021872s)
+[2015.04.25-19.12.21:004][572]LogWorld: Game class is 'MyGame_C'
+[2015.04.25-19.12.21:009][572]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-19.12.21:022][572]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.04.25-12.12.21
+[2015.04.25-19.12.21:024][572]LogWorld: Bringing up level for play took: 0.013945
+[2015.04.25-19.12.21:035][572]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.079
+[2015.04.25-19.12.57:997][956]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-19.12.58:155][956]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE579C1080
+[2015.04.25-19.18.04:168][555]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-19.18.06:859][612]BlueprintLog: New page: Compile MyCharacter
+[2015.04.25-19.18.07:204][612]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2015.04.25-19.18.07:346][612]BlueprintEditorCompileResults: Info [9090.89] Compile of MyCharacter successful! [in 486 ms]
+[2015.04.25-19.18.10:034][627]LogSavePackage: Save=1632.540771ms
+[2015.04.25-19.18.10:034][627]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyCharacterD21B4B7F44F5BDF755E074BCB29A6877.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Character/MyCharacter.uasset'
+[2015.04.25-19.18.19:388][767]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-19.18.19:389][767]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 5:18:19 AM)
+[2015.04.25-19.18.19:406][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016390s)
+[2015.04.25-19.18.19:409][767]LogPlayLevel: PIE: World Init took: (0.002383s)
+[2015.04.25-19.18.19:409][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.019563s)
+[2015.04.25-19.18.19:476][767]LogWorld: Game class is 'MyGame_C'
+[2015.04.25-19.18.19:480][767]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-19.18.19:494][767]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.04.25-12.18.19
+[2015.04.25-19.18.19:496][767]LogWorld: Bringing up level for play took: 0.013844
+[2015.04.25-19.18.19:506][767]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.45
+[2015.04.25-19.18.32:517][257]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-19.18.32:628][257]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE68266020
+[2015.04.25-19.18.41:618][427]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-19.18.45:448][504]BlueprintLog: New page: Compile MyCharacter
+[2015.04.25-19.18.45:788][504]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2015.04.25-19.18.45:927][504]BlueprintEditorCompileResults: Info [9129.47] Compile of MyCharacter successful! [in 479 ms]
+[2015.04.25-19.18.48:780][522]LogSavePackage: Save=1594.966675ms
+[2015.04.25-19.18.48:780][522]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyCharacter0B774DAB4174A28F9978E6BEB931F0D6.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Character/MyCharacter.uasset'
+[2015.04.25-19.18.57:137][702]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-19.18.57:137][702]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 5:18:57 AM)
+[2015.04.25-19.18.57:157][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017985s)
+[2015.04.25-19.18.57:159][702]LogPlayLevel: PIE: World Init took: (0.002172s)
+[2015.04.25-19.18.57:159][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.020919s)
+[2015.04.25-19.18.57:224][702]LogWorld: Game class is 'MyGame_C'
+[2015.04.25-19.18.57:230][702]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-19.18.57:243][702]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.04.25-12.18.57
+[2015.04.25-19.18.57:245][702]LogWorld: Bringing up level for play took: 0.013800
+[2015.04.25-19.18.57:256][702]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.7
+[2015.04.25-19.19.25:206][713]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-19.19.25:343][713]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE6DBB2AC0
+[2015.04.25-19.19.35:386][966]LogSavePackage: Save=528.616516ms
+[2015.04.25-19.19.35:386][966]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Minimal_Default086ECC804F482BCFB3A627B3A328A54E.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.04.25-19.21.02:276][792]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-19.21.02:276][792]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 5:21:02 AM)
+[2015.04.25-19.21.02:295][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017619s)
+[2015.04.25-19.21.02:298][792]LogPlayLevel: PIE: World Init took: (0.002778s)
+[2015.04.25-19.21.02:299][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.021408s)
+[2015.04.25-19.21.02:366][792]LogWorld: Game class is 'MyGame_C'
+[2015.04.25-19.21.02:372][792]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-19.21.02:387][792]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.04.25-12.21.02
+[2015.04.25-19.21.02:390][792]LogWorld: Bringing up level for play took: 0.016047
+[2015.04.25-19.21.02:404][792]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.448
+[2015.04.25-19.21.42:122][221]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-19.21.42:235][221]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE742FDEE0
+[2015.04.25-19.21.42:236][221]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE75F900E0
+[2015.04.25-19.21.42:237][221]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE7BD1C860
+[2015.04.25-19.21.42:237][221]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE73F97CE0
+[2015.04.25-19.21.45:740][271]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2015.04.25-19.22.36:922][905]BlueprintLog: New page: Compile CharacterAnimBP
+[2015.04.25-19.22.37:423][905]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-19.22.37:575][905]BlueprintEditorCompileResults: Info [9361.12] Compile of CharacterAnimBP successful! [in 652 ms]
+[2015.04.25-19.22.41:808][966]LogSavePackage: Save=1786.177490ms
+[2015.04.25-19.22.41:809][966]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/CharacterAnimBP941E2C204B398EF3062C138DFDDBC7D5.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Character/CharacterAnimBP.uasset'
+[2015.04.25-19.22.48:091][107]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE6EF1FE20
+[2015.04.25-19.22.48:092][107]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE12489300
+[2015.04.25-19.22.48:125][107]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE7BD1E0C0
+[2015.04.25-19.22.48:629][107]LogSavePackage: Save=504.374481ms
+[2015.04.25-19.22.48:629][107]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Minimal_Default1B821DCD49B9C3F6C2CF3184EAAEA800.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.04.25-19.22.50:405][145]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.25-19.22.50:406][145]PIE: New page: PIE session: Minimal_Default (Apr 25, 2015, 5:22:50 AM)
+[2015.04.25-19.22.50:424][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017141s)
+[2015.04.25-19.22.50:427][145]LogPlayLevel: PIE: World Init took: (0.002262s)
+[2015.04.25-19.22.50:427][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.019926s)
+[2015.04.25-19.22.50:501][145]LogWorld: Game class is 'MyGame_C'
+[2015.04.25-19.22.50:506][145]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.25-19.22.50:519][145]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2015.04.25-12.22.50
+[2015.04.25-19.22.50:521][145]LogWorld: Bringing up level for play took: 0.014025
+[2015.04.25-19.22.50:532][145]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.576
+[2015.04.25-19.23.33:133][703]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE01610B80
+[2015.04.25-19.23.37:588][855]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2015.04.25-19.23.45:869][ 91]Cmd: TRANSACTION UNDO
+[2015.04.25-19.23.45:869][ 91]LogEditorTransaction: Undo Move Actors
+[2015.04.25-19.25.03:147][494]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.25-19.25.03:262][494]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE7BEA7B00
+[2015.04.25-19.25.03:814][494]LogSavePackage: Save=506.757782ms
+[2015.04.25-19.25.03:815][494]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/Minimal_DefaultC81A14F646A7B0AE89147D9D6B968CE6.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Maps/Minimal_Default.umap'
+[2015.04.25-19.25.09:620][578]LogSavePackage: Save=10.217094ms
+[2015.04.25-19.25.09:620][578]LogSavePackage: Moving '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Saved/MyChracterE1BD5B294A6CD9FA9BFA6EB167F24A7C.tmp' to '../../../../../../Users/Dean/Documents/Unreal Projects/MyThirdPersonGame/Content/StarterContent/Character/MyChracter.uasset'
+[2015.04.25-19.25.11:820][579]Cmd: QUIT_EDITOR
+[2015.04.25-19.25.12:825][579]LogExit: Preparing to exit.
+[2015.04.25-19.25.13:345][579]LogExit: Editor shut down
+[2015.04.25-19.25.13:346][579]LogExit: Transaction tracking system shut down
+[2015.04.25-19.25.13:349][579]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE5FA2F100
+[2015.04.25-19.25.13:350][579]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE6D3777E0
+[2015.04.25-19.25.13:351][579]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE61CE6D40
+[2015.04.25-19.25.13:351][579]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE6D8131A0
+[2015.04.25-19.25.13:353][579]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE5F085440
+[2015.04.25-19.25.13:353][579]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE68266D40
+[2015.04.25-19.25.13:356][579]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE5EF39800
+[2015.04.25-19.25.13:357][579]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE75BBAE80
+[2015.04.25-19.25.13:357][579]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AE77C45D00
+[2015.04.25-19.25.13:617][579]LogExit: Object subsystem successfully closed.
+[2015.04.25-19.25.13:832][579]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (178)
+[2015.04.25-19.25.13:832][579]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.25-19.25.13:833][579]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.25-19.25.13:833][579]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.25-19.25.13:833][579]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.25-19.25.13:833][579]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.25-19.25.13:833][579]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.25-19.25.13:833][579]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.25-19.25.13:833][579]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.25-19.25.13:834][579]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.25-19.25.13:834][579]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.25-19.25.13:834][579]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.25-19.25.13:834][579]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.25-19.25.13:834][579]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.25-19.25.13:834][579]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.25-19.25.13:834][579]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.25-19.25.13:834][579]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.25-19.25.13:834][579]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.25-19.25.13:834][579]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.25-19.25.13:834][579]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.25-19.25.13:835][579]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.25-19.25.13:835][579]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.25-19.25.13:835][579]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.25-19.25.13:835][579]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.25-19.25.13:835][579]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.25-19.25.13:835][579]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.25-19.25.13:835][579]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.25-19.25.13:836][579]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.25-19.25.13:836][579]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.25-19.25.13:836][579]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.25-19.25.13:836][579]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.25-19.25.13:836][579]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.25-19.25.13:836][579]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.25-19.25.14:055][579]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.25-19.25.14:055][579]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.25-19.25.14:055][579]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.25-19.25.14:055][579]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.25-19.25.14:056][579]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.25-19.25.14:056][579]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.25-19.25.14:056][579]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.25-19.25.14:056][579]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.25-19.25.14:056][579]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.25-19.25.14:056][579]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.25-19.25.14:056][579]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.25-19.25.14:056][579]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.25-19.25.14:057][579]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.25-19.25.14:057][579]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.25-19.25.14:057][579]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.25-19.25.14:057][579]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.25-19.25.14:057][579]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.25-19.25.14:057][579]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.25-19.25.14:058][579]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.25-19.25.14:255][579]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.25-19.25.14:255][579]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.25-19.25.14:255][579]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.25-19.25.14:258][579]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.25-19.25.14:258][579]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.25-19.25.14:258][579]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.25-19.25.14:258][579]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.25-19.25.14:258][579]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.25-19.25.14:258][579]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.25-19.25.14:258][579]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.25-19.25.14:258][579]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.25-19.25.14:258][579]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.25-19.25.14:259][579]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.25-19.25.14:259][579]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.25-19.25.14:259][579]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.25-19.25.14:259][579]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.25-19.25.14:259][579]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.25-19.25.14:259][579]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.25-19.25.14:259][579]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.25-19.25.14:259][579]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.25-19.25.14:259][579]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.25-19.25.14:406][579]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.25-19.25.14:406][579]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.25-19.25.14:406][579]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.25-19.25.14:406][579]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.25-19.25.14:407][579]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.25-19.25.14:407][579]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.25-19.25.14:407][579]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.25-19.25.14:407][579]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.25-19.25.14:407][579]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.25-19.25.14:407][579]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.25-19.25.14:407][579]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.25-19.25.14:407][579]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.25-19.25.14:407][579]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.25-19.25.14:411][579]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.25-19.25.14:411][579]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.25-19.25.14:411][579]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.25-19.25.14:411][579]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.25-19.25.14:411][579]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.25-19.25.14:411][579]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.25-19.25.14:411][579]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.25-19.25.14:411][579]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.25-19.25.14:411][579]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.25-19.25.14:411][579]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.25-19.25.14:411][579]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.25-19.25.14:413][579]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.25-19.25.14:413][579]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.25-19.25.14:413][579]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.25-19.25.14:514][579]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.25-19.25.14:514][579]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.25-19.25.14:522][579]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.25-19.25.14:522][579]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.25-19.25.14:523][579]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.25-19.25.14:523][579]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.25-19.25.14:523][579]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.25-19.25.14:523][579]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.25-19.25.14:523][579]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.25-19.25.14:523][579]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.25-19.25.14:523][579]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.25-19.25.14:523][579]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.25-19.25.14:523][579]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.25-19.25.14:523][579]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.25-19.25.14:523][579]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.25-19.25.14:523][579]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.25-19.25.14:523][579]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.25-19.25.14:541][579]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.25-19.25.14:541][579]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.25-19.25.14:541][579]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.25-19.25.14:541][579]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.25-19.25.14:541][579]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.25-19.25.14:542][579]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.25-19.25.14:542][579]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.25-19.25.14:542][579]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.25-19.25.14:542][579]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.25-19.25.14:542][579]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.25-19.25.14:612][579]LogDerivedDataCache: Shutdown
+[2015.04.25-19.25.14:612][579]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.25-19.25.14:612][579]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.25-19.25.14:612][579]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.25-19.25.14:612][579]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.25-19.25.14:612][579]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.25-19.25.14:612][579]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.25-19.25.14:612][579]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.25-19.25.14:612][579]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.25-19.25.14:612][579]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.25-19.25.14:612][579]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.25-19.25.14:612][579]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.25-19.25.14:613][579]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.25-19.25.14:614][579]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.25-19.25.14:614][579]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.25-19.25.14:614][579]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.25-19.25.14:614][579]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.25-19.25.14:614][579]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.25-19.25.14:614][579]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.25-19.25.14:614][579]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.25-19.25.14:637][579]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.25-19.25.14:638][579]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.25-19.25.14:638][579]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.25-19.25.14:638][579]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.25-19.25.14:638][579]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.25-19.25.14:638][579]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.25-19.25.14:638][579]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.25-19.25.14:638][579]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.25-19.25.14:638][579]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.25-19.25.14:640][579]LogExit: Exiting.
+[2015.04.25-19.25.14:664][579]Log file closed, 04/25/15 12:25:14
